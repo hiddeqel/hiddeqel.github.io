@@ -1,0 +1,149 @@
+/* Подключение:
+<link rel="stylesheet" href="/styles.css">
+*/
+body,chem .katex {font-family:Zen Kurenaido,Akbaal,Bandera Pro,Fira Code,Fira Code I,"Exo 2",Source Sans Pro,Noto Emoji,"M PLUS 1p",Noto Sans Japanese,Inter}
+body {word-break:break-word}
+hr {border:1px solid black}
+table {border-collapse:collapse;display:block;overflow:scroll}
+td {white-space:nowrap;border:1px solid black}
+th {white-space:nowrap;background-color:#F7EBDB;text-align:center;font-weight:normal;border:1px solid black}
+:target {background-color:rgba(221,68,204,.5)}
+a {text-underline-position:under}
+ol,ul {padding-right:20px}
+.w100 {width:100%}
+min {vertical-align:super;font-size:70%;text-decoration-line:underline}
+details summary::before {content:"Показать:[";font-style:italic}
+details[open] summary::before {content:"Скрыть:[";font-style:italic}
+details summary::after {content:"]";font-style:italic}
+details summary {list-style-type:"\27A1"}
+details[open] summary {list-style-type:"\2B07"}
+bu,.bu {user-select:none;background-color:#FFC107;padding:5px;border-radius:5px;display:inline-block;text-decoration:none;color:black;cursor:pointer}
+bf {display:inline-block;border:1px solid black}
+rf {display:inline-block;border:1px solid red;padding:1px}
+sq {font-family:square}
+bom {font-family:Bomber TV;font-variant-caps:small-caps}
+ou {font-family:Outfit}
+bo {font-weight:bold}
+it {font-style:italic}
+un {text-decoration-line:underline;text-underline-position:under}
+lt {text-decoration-line:line-through}
+ov {text-decoration-line:overline}
+subs {vertical-align:sub;font-size:70%}
+sups {vertical-align:super;font-size:70%}
+hl,.h {font-size:200%}
+hc {display:block;text-align:center;font-size:200%}
+hc2 {display:block;text-align:center;font-size:140%}
+tac {display:block;text-align:center}
+.tac,[class=tac] td {text-align:center}
+tar {display:block;text-align:right}
+tab {user-select:all;background-color:rgba(37,37,37,.4);border-radius:3px;white-space:pre;display:block;overflow:scroll}
+tai {user-select:all;background-color:rgba(37,37,37,.4);border-radius:3px;white-space:pre;display:inline}
+kn {font-kerning:none}
+deg90 {transform:rotate(90deg);display:inline-block}
+deg180 {transform:rotate(180deg);display:inline-block}
+deg270 {transform:rotate(270deg);display:inline-block}
+mi {transform:scaleX(-1);display:inline-block}
+.it {height:2ex;vertical-align:middle}
+ti {text-indent:30px;display:inline-block}
+wspl,.wspl {white-space:pre-line}
+nw {white-space:nowrap}
+.vat,[class=vat] td {vertical-align:top}
+toc {display:block;border:1px solid black;background-color:#F7EBDB;padding-top:7px;padding-bottom:7px}
+.fn {vertical-align:super;text-decoration:none;user-select:none}
+/* Маркированные списки (<ul>) */
+.mn,ul[class=mn] li {list-style-type:none}
+.md,ul[class=md] li,.md2 ul li {list-style-type:disc}
+.check,ul[class=check] li {list-style-type:"✓ "}
+.cross,ul[class=cross] li {list-style-type:"✕ "}
+.bb,ul[class=bb] li {list-style-type:"☐ "}
+.bbc,ul[class=bbc] li {list-style-type:"☑ "}
+.bbx,ul[class=bbx] li {list-style-type:"☒ "}
+.cl,ul[class=cl] li {list-style-type:"\1f12f"}
+/* Нумерованные списки (<ol>) */
+@counter-style number_dot {system:fixed;symbols:⒈ ⒉ ⒊ ⒋ ⒌ ⒍ ⒎ ⒏ ⒐ ⒑ ⒒ ⒓ ⒔ ⒕ ⒖ ⒗ ⒘ ⒙ ⒚ ⒛;suffix:" "}
+.number_dot {list-style-type:number_dot}
+@counter-style number_circled {system:fixed;symbols:① ② ③ ④ ⑤ ⑥ ⑦ ⑧ ⑨ ⑩ ⑪ ⑫ ⑬ ⑭ ⑮ ⑯ ⑰ ⑱ ⑲ ⑳ ㉑ ㉒ ㉓ ㉔ ㉕ ㉖ ㉗ ㉘ ㉙ ㉚ ㉛ ㉜ ㉝ ㉞ ㉟ ㊱ ㊲ ㊳ ㊴ ㊵ ㊶ ㊷ ㊸ ㊹ ㊺ ㊻ ㊼ ㊽ ㊾ ㊿;suffix:" "}
+.number_circled {list-style-type:number_circled}
+@counter-style number_parenthesis {system:fixed;symbols:"1";suffix:") "}
+.number_parenthesis {list-style-type:number_parenthesis}
+@counter-style cyrillic_parenthesis {system:alphabetic;symbols:а б в г д е ё ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я;suffix:") "}
+.cyrillic_parenthesis {list-style-type:cyrillic_parenthesis}
+@counter-style cyrillic_dot {system:alphabetic;symbols:а б в г д е ё ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я;suffix:". "}
+.cyrillic_dot {list-style-type:cyrillic_dot}
+.ma ::marker {content:counters(list-item,'.')' '}
+.ma li {list-style-position:inside}
+/* Шрифты */
+@font-face {
+font-family:Zen Kurenaido;
+src:url('/directories/files/fonts/ZenKurenaido.ttf');
+unicode-range:U+3b1,U+3bd,U+3c1;
+size-adjust:124%;
+}
+@font-face {
+font-family:Akbaal;
+src:url('/directories/files/fonts/akbaal.ttf');
+unicode-range:U+4f;
+size-adjust:73.4%;
+}
+@font-face {
+font-family:Outfit;
+src:url('/directories/files/fonts/Outfit.ttf');
+size-adjust:105%;
+}
+@font-face {
+font-family:square;
+src:url('/directories/files/fonts/square.ttf');
+size-adjust:130%;
+}
+@font-face {
+font-family:"Exo 2";
+src:url('/directories/files/fonts/Exo2.ttf');
+unicode-range:U+0410-044F,U+0401,U+0451;
+size-adjust:105.4%;
+}
+@font-face {
+font-family:Source Sans Pro;
+src:url('/directories/files/fonts/SourceSansPro.ttf');
+unicode-range:U+bd,U+2153,U+bc,U+2155,U+2159,U+2150,U+215b,U+2151,U+2152,U+2154,U+2156,U+be,U+2157,U+215c,U+2158,U+215a,U+215d,U+215e,U+2044,U+2189,U+7c,U+a6,U+2016;
+}
+@font-face {
+font-family:Inter;
+src:url('/directories/files/fonts/Inter.ttf');
+}
+@font-face {
+font-family:Fira Code;
+src:url('/directories/files/fonts/FiraCode.ttf');
+unicode-range:U+6c,U+25e1,U+FB01;
+}
+@font-face {
+font-family:Fira Code I;
+src:url('/directories/files/fonts/FiraCode.ttf');
+unicode-range:U+49,U+31,U+30,U+cc,U+ce,U+cf,U+12a;
+size-adjust:105.5%;
+}
+@font-face {
+font-family:"M PLUS 1p";
+src:url('/directories/files/fonts/MPLUS1p.ttf');
+unicode-range:U+2640,U+2642,U+203e,U+230a,U+2308,U+230b,U+2309,U+5350,U+534d,U+2217,U+2020,U+2302,U+2423,U+21b2,U+21c5,U+21c4,U+21d2,U+21e4,U+21e5,U+21c8,U+21ca,U+2220,U+221a,U+221b,U+221c,U+2300,U+b1,U+2213,U+214b,U+33,U+2610-2612,U+2715,U+24ea,U+2460-2473,U+3251-325f,U+32b1-32bf;
+size-adjust:100.9%;
+}
+@font-face {
+font-family:Bomber TV;
+src:url('/directories/files/fonts/BomberTV.otf');
+}
+@font-face {
+font-family:Noto Emoji;
+src:url('/directories/files/fonts/NotoEmoji.ttf');
+unicode-range:U+1fa99,U+1f48e,U+1f381,U+1f4a3,U+1f947,U+1f948,U+1f949,U+2734,U+2139,U+2b05,U+2b06,U+2b07,U+27a1,U+271d,U+2626,U+1FAC0;
+}
+@font-face {
+font-family:Noto Sans Japanese;
+src:url('/directories/files/fonts/NotoSansJP.otf');
+unicode-range:U+2042,U+2295,U+2488-249b,U+24d8;
+}
+@font-face {
+font-family:Bandera Pro;
+src:url('/directories/files/fonts/BanderaPro.ttf');
+unicode-range:U+43,U+53,U+56,U+57,U+58,U+5a,U+39e;
+size-adjust:112%;
+}
