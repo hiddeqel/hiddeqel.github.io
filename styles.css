@@ -3,6 +3,7 @@
 */
 body,chem .katex {font-family:Zen Kurenaido,Akbaal,Bandera Pro,Fira Code,Fira Code I,"Exo 2",Source Sans Pro,Noto Emoji,"M PLUS 1p",Noto Sans Japanese,Inter}
 body {word-break:break-word}
+table[class=tac] ol,ul {text-align:left}
 hr {border:1px solid black}
 table {border-collapse:collapse;display:block;overflow:scroll}
 td {white-space:nowrap;border:1px solid black}
