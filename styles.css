@@ -76,13 +76,13 @@ toc {display:block;border:1px solid black;background-color:#F7EBDB;padding-top:7
 /* Шрифты */
 @font-face {
 font-family:"Exo 2";
-src:url('/directories/files/fonts/Exo2.ttf');
+src:url('/directories/files/fonts/NAMU-1750.ttf');
 unicode-range:U+0410-044F,U+0401,U+0451;
 size-adjust:105.4%;
 }
 @font-face {
 font-family:"Exo 2";
-src:url('/directories/files/fonts/Exo2.ttf');
+src:url('/directories/files/fonts/BIZUDPGothic-Bold.ttf');
 unicode-range:U+0410-044F,U+0401,U+0451;
 size-adjust:105.4%;
 }
