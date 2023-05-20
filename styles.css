@@ -91,17 +91,14 @@ font-family:Outfit;
 src:url('/directories/files/fonts/Outfit.ttf');
 size-adjust:105%;
 }
-@font-face {
-font-family:square;
-src:url('/directories/files/fonts/square.ttf');
-size-adjust:130%;
-}
+/*
 @font-face {
 font-family:"Exo 2";
 src:url('/directories/files/fonts/Exo2.ttf');
 unicode-range:U+0410-044F,U+0401,U+0451;
 size-adjust:105.4%;
 }
+*/
 @font-face {
 font-family:Source Sans Pro;
 src:url('/directories/files/fonts/SourceSansPro.ttf');
