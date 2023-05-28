@@ -95,17 +95,6 @@ unicode-range:U+384-3CE;
 size-adjust:124%;
 }
 @font-face {
-font-family:Akbaal;
-src:url('/directories/files/fonts/akbaal.ttf');
-unicode-range:U+4f;
-size-adjust:73.4%;
-}
-@font-face {
-font-family:Outfit;
-src:url('/directories/files/fonts/Outfit.ttf');
-size-adjust:105%;
-}
-@font-face {
 font-family:Source Sans Pro;
 src:url('/directories/files/fonts/SourceSansPro.ttf');
 unicode-range:U+bd,U+2153,U+bc,U+2155,U+2159,U+2150,U+215b,U+2151,U+2152,U+2154,U+2156,U+be,U+2157,U+215c,U+2158,U+215a,U+215d,U+215e,U+2044,U+2189,U+7c,U+a6,U+2016;
@@ -121,10 +110,6 @@ unicode-range:U+2640,U+2642,U+203e,U+230a,U+2308,U+230b,U+2309,U+5350,U+534d,U+2
 size-adjust:100.9%;
 }
 @font-face {
-font-family:Bomber TV;
-src:url('/directories/files/fonts/BomberTV.otf');
-}
-@font-face {
 font-family:Noto Emoji;
 src:url('/directories/files/fonts/NotoEmoji.ttf');
 unicode-range:U+1fa99,U+1f48e,U+1f381,U+1f4a3,U+1f947,U+1f948,U+1f949,U+2734,U+2139,U+2b05,U+2b06,U+2b07,U+27a1,U+271d,U+2626,U+1FAC0;
@@ -133,10 +118,4 @@ unicode-range:U+1fa99,U+1f48e,U+1f381,U+1f4a3,U+1f947,U+1f948,U+1f949,U+2734,U+2
 font-family:Noto Sans Japanese;
 src:url('/directories/files/fonts/NotoSansJP.otf');
 unicode-range:U+2042,U+2295,U+2488-249b,U+24d8;
-}
-@font-face {
-font-family:Bandera Pro;
-src:url('/directories/files/fonts/BanderaPro.ttf');
-unicode-range:U+43,U+53,U+56,U+57,U+58,U+5a,U+39e;
-size-adjust:112%;
 }
