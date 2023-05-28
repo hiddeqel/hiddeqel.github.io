@@ -94,7 +94,7 @@ size-adjust:103%;
 @font-face {
 font-family:Zen Kurenaido;
 src:url('/directories/files/fonts/ZenKurenaido.ttf');
-unicode-range:U+3b1,U+3bd,U+3c1;
+unicode-range:U+384-3CE;
 size-adjust:124%;
 }
 @font-face {
