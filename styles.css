@@ -1,7 +1,7 @@
 /* Подключение:
 <link rel="stylesheet" href="/styles.css">
 */
-body,chem .katex {font-family:Cherry Swash,PT Mono,NAMU,Zen Kurenaido,Akbaal,Bandera Pro,Fira Code,Fira Code I,"Exo 2",Source Sans Pro,Noto Emoji,"M PLUS 1p",Noto Sans Japanese,Inter}
+body,chem .katex {font-family:Cherry Swash,PT Mono,NAMU,Zen Kurenaido,Source Sans Pro,Noto Emoji,"M PLUS 1p",Noto Sans Japanese,Inter}
 body {word-break:break-word}
 table[class=tac] ol,ul {text-align:left}
 hr {border:1px solid black}
@@ -80,19 +80,19 @@ unicode-range:U+41-7a;
 font-family:PT Mono;
 src:url('/directories/files/fonts/PTMono-Regular.ttf');
 unicode-range:U+30-39,U+FB01;
-size-adjust:103.8%;
+size-adjust:100%;
 }
 @font-face {
 font-family:NAMU;
 src:url('/directories/files/fonts/NAMU-1750.ttf');
 unicode-range:U+0410-044F,U+0401,U+0451;
-size-adjust:103%;
+size-adjust:100%;
 }
 @font-face {
 font-family:Zen Kurenaido;
 src:url('/directories/files/fonts/ZenKurenaido.ttf');
 unicode-range:U+384-3CE;
-size-adjust:124%;
+size-adjust:100%;
 }
 @font-face {
 font-family:Source Sans Pro;
