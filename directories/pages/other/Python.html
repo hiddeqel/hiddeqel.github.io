@@ -17,33 +17,40 @@ except ValueError:
  print("Недопустимое значение")
 </tab>
 <br>
-<tab>
+<tab>seq=[]
+inf=1
+while inf==1:
+	try:
+		inp=input()
+		if inp=="Go":
+			break
+		else:
+			seq.append(float(inp))
+	except ValueError:
+		print("Введите число")
+print(f"Введённые числа по возрастанию:\n{sorted(seq)}\nВведённые числа по убыванию:\n{sorted(seq, reverse=True)}\nМинимальное число:\n{min(seq)}\nМаксимальное число:\n{max(seq)}\nСреднее арифметическое:\n{round(sum(seq)/len(seq), 5)}\nМедиана:")
+if len(seq)%2==1:
+	print(sorted(seq).pop(len(seq)//2))
+else:
+	print((sorted(seq).pop(len(seq)//2)+sorted(seq).pop(len(seq)//2-1))/2)
 </tab>
 <br>
-<tab>print("Вводите натуральные числа, а затем введите «Go»")
-try:
- a=int(input())
- if a&gt;0:
-  ind=0
-  ℓ=[]
-  while a!="Go":
-   a=int(a)
-   if a&gt;0:
-    ℓ.append(a)
-    a=input()
-   else:
-    ind=1
-    print("Недопустимое значение")
-    break
-  if ind==0:
-   c=sum(ℓ)
-   print(f"Сумма введённых чисел: {c}\nДоля каждого введённого числа от их суммы:")
-   for J in ℓ:
-    print(f"{J}/{c}={J/c}")
- else:
-  print("Недопустимое значение")
-except ValueError:
- print("Недопустимое значение")
+<tab>seq=[]
+inf=1
+while inf==1:
+	try:
+		inp=input()
+		if inp=="Go":
+			break
+		if float(inp)&gt;0:
+			seq.append(float(inp))
+		else:
+			print("Введите положительное число")
+	except ValueError:
+		print("Введите положительное число")
+print(f"Сумма введённых чисел: {round(sum(seq), 5)}\nДоля каждого введённого числа от их суммы:")
+for J in seq:
+	print(f"{J}/{round(sum(seq), 5)}={round(J/sum(seq), 5)}")
 </tab>
 <br>
 <tab>print("Сколько чисел Фибоначчи вы хотите вывести?")
@@ -257,5 +264,68 @@ if 0&lt;n&lt;1001:
   print("Ко­ли­че­ство чисел, крат­ных 6 и окан­чи­ва­ю­щих­ся на 4:", J)
 else:
  print("Введите натуральное число, не превышающее 1000")
+</tab>
+<br>
+Напишите программу, которая в последовательности натуральных чисел находит среднее арифметическое двузначных чисел или сообщает, что таких чисел нет (выводит «NO»). Программа получает на вход натуральные числа, количество введённых чисел неизвестно, последовательность чисел заканчивается числом 0 (0 — признак окончания ввода, не входит в последовательность). Количество чисел не превышает 100. Введённые числа не превышают 300. Программа должна вывести среднее арифметическое двузначных чисел или вывести «NO», если таких чисел нет. Значение выводить с точностью до десятых.
+<br>
+Пример работы программы:
+<table>
+<tr>
+<td>
+Входные данные
+</td>
+<td>
+Выходные данные
+</td>
+</tr>
+<tr>
+<td>
+10
+<br>
+120
+<br>
+49
+<br>
+0
+</td>
+<td>
+29.5
+</td>
+</tr>
+<tr>
+<td>
+111
+<br>
+1
+<br>
+0
+</td>
+<td>
+NO
+</td>
+</tr>
+</table>
+<tab>list1=[]
+while len(list1)&lt;100:
+	try:
+		inp=int(input())
+	except ValueError:
+		print("Введите натуральное число, не превышающее 300")
+		continue
+	if inp!=0:
+		if 0&lt;inp&lt;301:
+			list1.append(inp)
+		else:
+			print("Введите натуральное число, не превышающее 300")
+	else:
+		break
+list2=[]
+for J in list1:
+	if len(str(J))==2:
+		list2.append(J)
+if len(list2)==0:
+	print("NO")
+else:
+	print(round(sum(list2)/len(list2), 1))
 </tab>
 </body></html>
