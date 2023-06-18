@@ -1,0 +1,63 @@
+<!DOCTYPE html><html translate="no"><head><link rel="stylesheet" href="/styles.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous"><script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script><script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script><meta name="viewport" content="width=device-width, initial-scale=1"><meta charset="utf-8">
+<title>Понятие «Раскладка»</title>
+<link rel="icon" href="/directories/files/pages‾icons/Jbak2Keyboard.png">
+<meta name="theme-color" content="#0F131C">
+</head><body>
+У понятия «раскладка» есть 2 значения:
+<ul>
+<li>В узком смысле — непосредственно сам xml файл.</li>
+<li>В широком смысле — xml файл вместе со всеми файлами, пути к которым в нём указаны, т. к. если эти файлы не будут существовать, раскладка не будет работать так, как было задумано её создателем.</li>
+</ul>
+<table>
+<tr>
+<th>
+Теги
+</th>
+<th>
+Атрибуты
+</th>
+<th>
+Форматы файлов
+</th>
+</tr>
+<tr>
+<td rowspan="3">
+&lt;Key /&gt;
+</td>
+<td>
+<a href="https://timoha64.github.io/directories/pages/Jbak2Keyboard/key‾icons.html#external">android:keyIcon</a>
+</td>
+<td>
+png, jpg, jpeg
+</td>
+</tr>
+<tr>
+<td>
+<a href="https://timoha64.github.io/directories/pages/Jbak2Keyboard/android:keyboard‾and‾android:longKeyboard.html">android:keyboard<br>android:longKeyboard</a>
+</td>
+<td>
+xml
+</td>
+</tr>
+<tr>
+<td>
+<a href="https://timoha64.github.io/directories/pages/Jbak2Keyboard/creating‾reference‾texts.html#2">android:openTextFile<br>android:longOpenTextFile</a>
+</td>
+<td rowspan="2">
+txt
+</td>
+</tr>
+<tr>
+<td>
+&lt;includeReplace /&gt;
+</td>
+<td>
+<a href="https://timoha64.github.io/directories/pages/Jbak2Keyboard/replace.html#includeReplace">file</a>
+</td>
+</tr>
+</table>
+<a name="path">
+<object><a name="root‾folder">Корневой папкой является папка <tai>keyboards</tai>, расположенная в папке <tai>jbak2Keyboard</tai>, которая, в свою очередь, расположена во внутреннем хранилище телефона.</a></object> Соответственно, если ваш файл находится прямо в этой папке, путём к нему будет просто его имя (вместе с точкой и форматом после неё). Если же, например, у вас в корневой папке есть папка <tai>Папка1</tai>, а в ней файл <tai>Файл1.txt</tai>, то путём к последнему будет значение <tai>Папка1/Файл1.txt</tai> и далее по такому же принципу.
+</a>
+</body></html>
+

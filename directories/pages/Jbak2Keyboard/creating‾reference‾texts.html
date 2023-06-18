@@ -1,0 +1,53 @@
+<!DOCTYPE html><html translate="no"><head><link rel="stylesheet" href="/styles.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous"><script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script><script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script><meta name="viewport" content="width=device-width, initial-scale=1"><meta charset="utf-8">
+<title>Создание справочных текстов</title>
+<link rel="icon" href="/directories/files/pages‾icons/Jbak2Keyboard.png">
+<meta name="theme-color" content="#0F131C">
+</head><body>
+Для создания справочных текстов существует 3 атрибута: <tai>android:help</tai>, <tai>android:openTextFile</tai> и <tai>android:longOpenTextFile</tai>.
+<hc2>Атрибут android:help</hc2>
+Атрибут android:help создаёт окно помощи, в котором отображается текст, указанный вами в значении атрибута. Для того, чтобы это окно помощи запустить, необходимо использовать <a href="https://timoha64.github.io/directories/pages/Jbak2Keyboard/key‾codes.html#-514">код -514</a>.
+<br>
+Примеры:
+<tab>&lt;Key android:codes="-514" android:help="Текст1" /&gt;</tab>
+При коротком нажатии на клавишу откроется окно помощи со справочным текстом <tai>Текст1</tai>.
+<tab>&lt;Key android:keyLabel="а" android:longCode="-514" android:help="Текст2" /&gt;</tab>
+При коротком нажатии на клавишу введётся буква <tai>а</tai>, а при долгом нажатии откроется окно помощи со справочным текстом <tai>Текст2</tai>.
+<hc2><a name="2">Атрибуты android:openTextFile и android:longOpenTextFile</a></hc2>
+Атрибуты android:openTextFile (короткое нажатие) и android:longOpenTextFile (долгое нажатие) открывают во встроенном редакторе текста текстовый файл, <a href="https://timoha64.github.io/directories/pages/Jbak2Keyboard/Layout.html#path">путь</a> к которому указывается в значении этих атрибутов.
+<hc2>Сравнение способов</hc2>
+<table>
+<tr>
+<th></th>
+<th class="wspl">Атрибут <nw>android:help</nw> и код -514</th>
+<th class="wspl">Атрибуты <nw>android:openTextFile</nw> и <nw>android:longOpenTextFile</nw></th>
+</tr>
+<tr>
+<td class="wspl"><nw>Где</nw> <nw>располагается</nw> <nw>справочный</nw> <nw>текст</nw></td>
+<td class="wspl">В самом файле раскладки</td>
+<td class="wspl">В отдельном файле</td>
+</tr>
+<tr>
+<td class="wspl"><nw>Как</nw> <nw>указывать</nw> <nw>символы</nw> <tai>&</tai>, <tai><</tai>, <tai>></tai>, <tai>'</tai> и <tai>"</tai></td>
+<td class="wspl">Через <a href="https://timoha64.github.io/directories/pages/Jbak2Keyboard/XML.html#symbols"><nw>мнемоники</nw></a>, <nw>т. к.</nw> это xml файл</td>
+<td class="wspl">Как есть, т. к. это просто текстовый файл</td>
+</tr>
+<tr>
+<td class="wspl"><nw>Как</nw> <nw>сделать</nw> <nw>перевод</nw> <nw>на</nw> <nw>следующую</nw> <nw>строку</nw></td>
+<td class="wspl"><tai>\n</tai></td>
+<td class="wspl"><a href="https://timoha64.github.io/directories/pages/Jbak2Keyboard/key‾codes.html#enter">Enter</a></td>
+</tr>
+<tr>
+<td class="wspl"><nw>Сильно</nw> <nw>ли</nw> <nw>большой</nw> <nw>текст</nw> <nw>справки</nw> <nw>замедляет</nw> <nw>раскладку</nw></td>
+<td class="wspl">Да</td>
+<td class="wspl">Нет</td>
+</tr>
+<tr>
+<td class="wspl"><nw>Как</nw> <nw>создать</nw> <nw>содержание</nw></td>
+<td class="wspl">Никак</td>
+<td class="wspl">Поместите в начало строки специальное значение из четырёх символов – <tai>$I: </tai>.
+После этих четырёх символов и до конца строки – это и будет ваш пункт содержания.
+
+Чтобы открыть содержание, <nw>нажмите <img class="it" src="/directories/files/images/≡.jpg"></nw> в правом верхнем углу окна справки.</td>
+</tr>
+</table>
+</body></html>

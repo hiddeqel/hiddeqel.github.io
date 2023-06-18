@@ -1,0 +1,62 @@
+<!DOCTYPE html><html translate="no"><head><link rel="stylesheet" href="/styles.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous"><script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script><script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script><meta name="viewport" content="width=device-width, initial-scale=1"><meta charset="utf-8">
+<title>XML</title>
+<link rel="icon" href="/directories/files/pages‾icons/Jbak2Keyboard.png">
+<meta name="theme-color" content="#0F131C">
+</head><body>
+На самом деле, общая структура xml файла довольно проста. Она выглядит примерно так:
+<tab>&lt;<span style="color:#0000AA">A</span> <span style="color:#0000AA">x1</span>="<span style="color:#0000AA">y1</span>"&gt;
+&lt;<span style="color:#0000AA">B</span> <span style="color:#0000AA">x2</span>="<span style="color:#0000AA">y2</span>" /&gt;
+&lt;/<span style="color:#0000AA">A</span>&gt;</tab>
+<span style="color:#0000AA">A</span> и <span style="color:#0000AA">B</span> называются <it>теги</it>. Теги бывают двух видов: <it>двойные</it> и <it>одиночные</it>. Тег <span style="color:#0000AA">A</span> двойной: он состоит из <it>открывающего</it> (<span style="color:#0000AA">&lt;A&gt;</span>) и <it>закрывающего</it> (<span style="color:#0000AA">&lt;/A&gt;</span>) тегов. Тег <span style="color:#0000AA">B</span> одиночный (<span style="color:#0000AA">&lt;B /&gt;</span>).
+<br>
+В данной ситуации говорят: «<it>тег <span style="color:#0000AA">B</span> находится внутри тега <span style="color:#0000AA">A</span></it>».
+<br><br>
+<span style="color:#0000AA">x1</span> и <span style="color:#0000AA">x2</span> называются <it>атрибуты</it>.
+<br>
+В данной ситуации говорят: «<it>атрибут <span style="color:#0000AA">x1</span> тега <span style="color:#0000AA">A</span></it>» и «<it>атрибут <span style="color:#0000AA">x2</span> тега <span style="color:#0000AA">B</span></it>».
+<br>
+Атрибуты бывают <it>обязательные</it> и <it>необязательные</it>. Обязательные атрибуты всегда, в любом случае надо указывать у соответствующего тега. Необязательные же атрибуты вы можете использовать по своему желанию.
+<br><br>
+<span style="color:#0000AA">y1</span> и <span style="color:#0000AA">y2</span> называются <it>значения</it>.
+<br>
+В данной ситуации говорят: «<it><span style="color:#0000AA">y1</span> является значением атрибута <span style="color:#0000AA">x1</span></it>» и «<it><span style="color:#0000AA">y2</span> — значение атрибута <span style="color:#0000AA">x2</span></it>».
+<br>
+<a name="symbols">
+В значениях атрибутов нельзя использовать символы &, &lt;, &gt;, ' и "; их необходимо указывать в мнемониках:
+<br>
+& – <tai>&#38;&#97;&#109;&#112;&#59;</tai>
+<br>
+&lt; – <tai>&#38;&#108;&#116;&#59;</tai>
+<br>
+&gt; – <tai>&#38;&#103;&#116;&#59;</tai>
+<br>
+' – <tai>&#38;&#97;&#112;&#111;&#115;&#59;</tai>
+<br>
+" – <tai>&#38;&#113;&#117;&#111;&#116;&#59;</tai>
+</a>
+<hc2><a name="general‾structure‾of‾file">Общая структура файла раскладки <object><a href="https://timoha64.github.io/directories/pages/Jbak2Keyboard/types‾of‾layouts.html#main">основного типа</a></object></a></hc2>
+<tab>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Keyboard xmlns:android="http://schemas.android.com/apk/res/android"&gt;
+	&lt;Row&gt;
+		&lt;Key 1 /&gt;
+		&lt;Key 2 /&gt;
+		&lt;Key 3 /&gt;
+		…
+	&lt;/Row&gt;
+	&lt;Row&gt;
+		&lt;Key 4 /&gt;
+		&lt;Key 5 /&gt;
+		&lt;Key 6 /&gt;
+		…
+	&lt;/Row&gt;
+	…
+	&lt;Replace from="x" to="y"/&gt;
+	&lt;Replace from="xx" to="yy"/&gt;
+	…
+	&lt;includeReplace file="A.txt"/&gt;
+	&lt;includeReplace file="B.txt"/&gt;
+	…
+&lt;/Keyboard&gt;</tab>
+<a href="https://timoha64.github.io/directories/pages/Jbak2Keyboard/replace.html">Теги &lt;Replace /&gt; и &lt;includeReplace /&gt;</a> не являются обязательными. В теге <tai>Keyboard</tai> должен находиться как минимум один тег <tai>Row</tai>, внутри которого, в свою очередь, должен быть минимум один тег <tai>Key</tai>.
+</body></html>
+

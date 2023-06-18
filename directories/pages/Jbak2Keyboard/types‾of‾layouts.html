@@ -1,0 +1,161 @@
+<!DOCTYPE html><html translate="no"><head><link rel="stylesheet" href="/styles.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous"><script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script><script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script><meta name="viewport" content="width=device-width, initial-scale=1"><meta charset="utf-8">
+<title>Типы раскладок</title>
+<link rel="icon" href="/directories/files/pages‾icons/Jbak2Keyboard.png">
+<meta name="theme-color" content="#0F131C">
+</head><body>
+<table>
+<tr>
+<th>
+Типы
+</th>
+<th>
+Языковые
+</th>
+<th colspan="2">
+Неязыковые
+</th>
+<th>
+Скрытые
+</th>
+</tr>
+<tr>
+<th>
+<a name="prefixes">Префиксы</a>
+</th>
+<th>
+Двухбуквенные коды языков (ISO 639‐1): <tai>ru</tai>, <tai>en</tai> <a href="https://en.m.wikipedia.org/wiki/List_of_ISO_639-1_codes">и т. д.</a>
+</th>
+<th>
+<tai>symbol</tai>, <tai>symbol2</tai>, <tai>edittext</tai>, <tai>smile</tai>, <tai>num</tai>
+</th>
+<th>
+<tai>calc</tai>
+</th>
+<th>
+<tai>hide</tai>
+</th>
+</tr>
+<tr>
+<td>
+<tac><a name="main">Основной</a></tac>
+Атрибут <tai>android:typeKeyboard</tai> отсутствует у тега &lt;Keyboard&gt;
+<br>
+<it>См. также <a href="https://timoha64.github.io/directories/pages/Jbak2Keyboard/XML.html#general‾structure‾of‾file">общую структуру файла</a></it>
+</td>
+<td class="tac">
+✓
+</td>
+<td class="tac">
+✓
+</td>
+<td class="tac">
+✕
+</td>
+<td class="tac">
+✓
+</td>
+</tr>
+<tr>
+<td>
+<tac><a href="https://timoha64.github.io/directories/pages/Jbak2Keyboard/layouts‾with‾scroll.html">С прокруткой</a></tac>
+<tai>android:typeKeyboard="scroll"</tai>
+</td>
+<td class="tac">
+✕
+</td>
+<td class="tac">
+✓
+</td>
+<td class="tac">
+✕
+</td>
+<td class="tac">
+✓
+</td>
+</tr>
+<tr>
+<td>
+<tac>Калькулятор</tac>
+<tai>android:typeKeyboard="calculator"</tai>
+</td>
+<td class="tac">
+✕
+</td>
+<td class="tac">
+✕
+</td>
+<td class="tac">
+✓
+</td>
+<td class="tac">
+✕
+</td>
+</tr>
+</table>
+<hc2>Языковые раскладки</hc2>
+Последняя языковая раскладка открывается:
+<ol>
+<li>При вызове (открытии) клавиатуры</li>
+<li>При нажатии клавиши с <a href="https://timoha64.github.io/directories/pages/Jbak2Keyboard/key‾codes.html#-2">кодом -2</a> на любой раскладке, которая не является последней языковой раскладкой</li>
+</ol>
+Основной способ перехода между языковыми раскладками – это <a href="https://timoha64.github.io/directories/pages/Jbak2Keyboard/key‾codes.html#language‾switching‾codes">коды переключения языков</a>.
+<br>
+Также можно открыть раскладку определённого языка с помощью значений <tai>$$ru</tai>, <tai>$$en</tai> и т. д. (см. <a href="https://timoha64.github.io/directories/pages/Jbak2Keyboard/android:keyboard‾and‾android:longKeyboard.html#$$y">атрибуты android:keyboard и android:longKeyboard</a>). Открытая таким образом раскладка – временная: клавиша с кодом <tai>-2</tai> на открытой таким образом раскладке будет возвращать к последней языковой раскладке.
+<hc2>Неязыковые раскладки</hc2>
+<ul>
+<li>
+<a name="symbol"><tai>symbol</tai> – символьная раскладка</a>
+<br><br>
+Открывается:
+<ol>
+<li>По нажатию клавиши с кодом <tai>-2</tai> на языковой раскладке</li>
+<li>По нажатию клавиши Shift на <un>дополнительной</un> символьной раскладке</li>
+<li>С помощью значения <tai>$$symbol</tai> (см. <a href="https://timoha64.github.io/directories/pages/Jbak2Keyboard/android:keyboard‾and‾android:longKeyboard.html#$$y">атрибуты android:keyboard и android:longKeyboard</a>)</li>
+</ol>
+</li>
+<li>
+<a name="symbol2"><tai>symbol2</tai> – дополнительная символьная раскладка</a>
+<br><br>
+Открывается:
+<ol>
+<li>По нажатию клавиши Shift на символьной раскладке</li>
+<li>С помощью значения <tai>$$symbol2</tai> (см. <a href="https://timoha64.github.io/directories/pages/Jbak2Keyboard/android:keyboard‾and‾android:longKeyboard.html#$$y">атрибуты android:keyboard и android:longKeyboard</a>)</li>
+</ol>
+</li>
+<li>
+<a name="edittext"><tai>edittext</tai> – раскладка редактирования текста</a>
+<br><br>
+Открывается:
+<ol>
+<li>По <un>долгому</un> нажатию клавиши Shift</li>
+<li>По нажатию клавиши с <a href="https://timoha64.github.io/directories/pages/Jbak2Keyboard/key‾codes.html#edittext">кодом -611 или -619</a></li>
+<li>С помощью значения <tai>$$edittext</tai> (см. <a href="https://timoha64.github.io/directories/pages/Jbak2Keyboard/android:keyboard‾and‾android:longKeyboard.html#$$y">атрибуты android:keyboard и android:longKeyboard</a>)</li>
+</ol>
+</li>
+<li>
+<a name="smile"><tai>smile</tai> – раскладка смайликов</a>
+<br><br>
+Открывается:
+<ol>
+<li>По <un>долгому</un> нажатию клавиши Enter</li>
+<li>По нажатию клавиши с <a href="https://timoha64.github.io/directories/pages/Jbak2Keyboard/key‾codes.html#smile">кодом -610 или -620</a></li>
+<li>С помощью значения <tai>$$smile</tai> (см. <a href="https://timoha64.github.io/directories/pages/Jbak2Keyboard/android:keyboard‾and‾android:longKeyboard.html#$$y">атрибуты android:keyboard и android:longKeyboard</a>)</li>
+</ol>
+</li>
+<li>
+<a name="num"><tai>num</tai> – числовая раскладка</a>
+<br><br>
+Открывается:
+<ol>
+<li>Если атрибут <tai>type</tai> тега <tai>&lt;input&gt;</tai>, который создаёт поле ввода текста, имеет значение <tai>number</tai> (<tai>&lt;input type="number"&gt;</tai>). Тестовый пример для проверки: <input type="number"></li>
+<li>По нажатию клавиши с <a href="https://timoha64.github.io/directories/pages/Jbak2Keyboard/key‾codes.html#num">кодом -612 или -621</a></li>
+<li>С помощью значения <tai>$$num</tai> (см. <a href="https://timoha64.github.io/directories/pages/Jbak2Keyboard/android:keyboard‾and‾android:longKeyboard.html#$$y">атрибуты android:keyboard и android:longKeyboard</a>)</li>
+</ol>
+</li>
+<li>
+<tai>calc</tai> – раскладка калькулятора
+</li>
+</ul>
+<hc2>Скрытые раскладки</hc2>
+Конкретные скрытые раскладки можно открывать с помощью <a href="https://timoha64.github.io/directories/pages/Jbak2Keyboard/android:keyboard‾and‾android:longKeyboard.html#path">атрибутов android:keyboard и android:longKeyboard</a>. Также существует <a href="https://timoha64.github.io/directories/pages/Jbak2Keyboard/key‾codes.html#-628">код -628</a>.
+</body></html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html><html translate="no"><head><link rel="stylesheet" href="/styles.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous"><script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script><script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script><meta name="viewport" content="width=device-width, initial-scale=1"><meta charset="utf-8">
+<title>Замена</title>
+<link rel="icon" href="/directories/files/pages‾icons/Jbak2Keyboard.png">
+<meta name="theme-color" content="#0F131C">
+</head><body>
+Теги <tai>&lt;Replace /&gt;</tai> и <tai>&lt;includeReplace /&gt;</tai> позволяют заменять вводимый текст.
+<br><br>
+Не являются обязательными.
+<br><br>
+См. также: <a href="https://timoha64.github.io/directories/pages/Jbak2Keyboard/types‾of‾layouts.html">Типы раскладок</a>.
+<hc2>Тег &lt;Replace /&gt;</hc2>
+Атрибуты:
+<ul>
+<li>
+<tai>from</tai> (обязательный)
+<br><br>
+Значение — один или несколько символов.
+</li>
+<li>
+<tai>to</tai> (обязательный)
+<br><br>
+Значение — один или несколько символов.
+</li>
+</ul>
+Если вы <un>введёте</un> в текстовое поле последний символ из значения атрибута <tai>from</tai> таким образом, чтобы в текстовом поле образовалось это значение целиком, то это значение в текстовом поле заменится на значение атрибута <tai>to</tai>. Работает с учётом регистра.
+<br>
+Например, код <tai>&lt;Replace from="а,б 1.2?г" to="abcD)+" /&gt;</tai> будет заменять <tai>а,б 1.2?г</tai> на <tai>abcD)+</tai>.
+<hc2><a name="includeReplace">Тег &lt;includeReplace /&gt;</a></hc2>
+Позволяет вынести теги <tai>&lt;Replace /&gt;</tai> во внешний текстовый файл.
+<br><br>
+Атрибуты:
+<ul>
+<li>
+<tai>file</tai> (обязательный)
+<br><br>
+Значение — <a href="https://timoha64.github.io/directories/pages/Jbak2Keyboard/Layout.html#path">путь</a> к txt файлу.
+</li>
+</ul>
+Пример:
+<br>
+В xml файле находится код <tai>&lt;includeReplace file="Замены.txt" /&gt;</tai>. Содержимое файла <tai>Замены.txt</tai>:
+<tab>&lt;Replace from="bb" to="abc"/&gt;
+&lt;Replace from="oc" to="?"/&gt;
+&lt;Replace from="ss" to="§"/&gt;
+&lt;Replace from="pp" to="zzz"/&gt;
+</tab>
+<br>
+Чем больше вы подключите к раскладке внешних файлов замен, тем медленнее будет загружаться раскладка.
+<hr>
+В xml файле теги <tai>&lt;Replace /&gt;</tai> и <tai>&lt;includeReplace /&gt;</tai> должны располагаться между последним тегом <tai>&lt;/Row&gt;</tai> и тегом <tai>&lt;/Keyboard&gt;</tai>; их может быть неограниченное количество, так же, как и тегов <tai>&lt;Replace /&gt;</tai> во внешнем txt файле. Теги считываются по порядку в xml файле.
+</body></html>
+
