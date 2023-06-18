@@ -5,14 +5,14 @@
 </head><body>
 <img style="width:100%" src="http://i.absurdopedia.net/b/b4/CppForFood.jpg">
 <tab>try:
- a=float(input("Введите число, чтобы разбить его на цифры: "))
- b=list(str(a))
- for J in range(0, len(b)):
-  try:
-   c=int(b[J])
-   print(c, end=" ")
-  except ValueError:
-   continue
+	a=float(input("Введите число, чтобы разбить его на цифры: "))
+	b=list(str(a))
+	for J in range(0, len(b)):
+		try:
+			c=int(b[J])
+			print(c, end=" ")
+		except ValueError:
+			continue
 except ValueError:
  print("Недопустимое значение")
 </tab>
