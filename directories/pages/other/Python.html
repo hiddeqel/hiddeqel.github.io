@@ -117,19 +117,19 @@ except ValueError:
 </tab>
 <br>
 <tab>try:
- print("Найти произведение целых нечётных чисел в промежутке [m;n]")
- m=int(input("m="))
- n=int(input("n="))
- if m%2==0:
-  m+=1
- if n%2==0:
-  n-=1
- x=1
- for J in range(m, n+1, 2):
-  x*=J
- print(x)
+	print("Найти произведение целых нечётных чисел в промежутке [m;n]")
+	m=int(input("m="))
+	n=int(input("n="))
+	if m%2==0:
+		m+=1
+	if n%2==0:
+		n-=1
+	x=1
+	for J in range(m, n+1, 2):
+		x*=J
+	print(x)
 except ValueError:
- print("Недопустимое значение")
+	print("Недопустимое значение")
 </tab>
 <br>
 <tab>import random
