@@ -4,15 +4,24 @@
 <meta name="theme-color" content="#">
 </head><body>
 <img style="width:100%" src="http://i.absurdopedia.net/b/b4/CppForFood.jpg">
-<tab>try:
-	a=float(input("Введите число, чтобы разбить его на цифры: "))
-	b=list(str(a))
-	for J in range(0, len(b)):
+<tab>print("Введите число, чтобы посчитать сумму его цифр")
+try:
+	num=float(input())
+	seq1=list(str(num))
+	seq2=[]
+	for J1 in seq1:
 		try:
-			c=int(b[J])
-			print(c, end=" ")
+			seq2.append(int(J1))
 		except ValueError:
 			continue
+	coun=len(seq2)
+	for J2 in seq2:
+		coun-=1
+		if coun==0:
+			print(J2, end="=")
+		else:
+			print(J2, end="+")
+	print(sum(seq2))
 except ValueError:
 	print("Недопустимое значение")
 </tab>
