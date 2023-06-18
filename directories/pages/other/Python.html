@@ -73,47 +73,47 @@ except ValueError:
 </tab>
 <br>
 <tab>try:
- print("Введите 3 измерения длин сторон треугольника")
- a=float(input("a="))
- b=float(input("b="))
- c=float(input("c="))
- if a+b&lt;=c or a+c&lt;=b or b+c&lt;=a:
-  print("Такой треугольник не существует")
- elif a==b==c:
-  print("Такой треугольник равносторонний")
- elif a==b or b==c or c==a:
-  print("Такой треугольник равнобедренный")
- elif a!=b and b!=c and a!=c:
-  print("Такой треугольник разносторонний")
- if a+b&gt;c and a+c&gt;b and b+c&gt;a:
-  print("P =", a+b+c)
-  print("S =", (((a+b+c)/2)*((a+b+c)/2-a)*((a+b+c)/2-b)*((a+b+c)/2-c))**0.5)
- if a!=b and b!=c and a!=c:
-  if a&lt;b and a&lt;c:
-   J3=a
-  elif b&lt;a and b&lt;c:
-   J3=b
-  elif c&lt;a and c&lt;b:
-   J3=c
-  if b&lt;a&lt;c or b&gt;a&gt;c:
-   J4=a
-  elif a&lt;b&lt;c or a&gt;b&gt;c:
-   J4=b
-  elif a&lt;c&lt;b or a&gt;c&gt;b:
-   J4=c
-  if a&gt;b and a&gt;c:
-   J5=a
-  elif b&gt;a and b&gt;c:
-   J5=b
-  elif c&gt;a and c&gt;b:
-   J5=c
-  a=J3
-  b=J4
-  c=J5
-  if a%3==0 and b%4==0 and c%5==0:
-   print("Египетский треугольник")
+	print("Введите 3 измерения длин сторон треугольника")
+	a=float(input("a="))
+	b=float(input("b="))
+	c=float(input("c="))
+	if a+b&lt;=c or a+c&lt;=b or b+c&lt;=a:
+		print("Такой треугольник не существует")
+	elif a==b==c:
+		print("Такой треугольник равносторонний")
+	elif a==b or b==c or c==a:
+		print("Такой треугольник равнобедренный")
+	elif a!=b and b!=c and a!=c:
+		print("Такой треугольник разносторонний")
+	if a+b&gt;c and a+c&gt;b and b+c&gt;a:
+		print("P =", a+b+c)
+		print("S =", (((a+b+c)/2)*((a+b+c)/2-a)*((a+b+c)/2-b)*((a+b+c)/2-c))**0.5)
+	if a!=b and b!=c and a!=c:
+		if a&lt;b and a&lt;c:
+			J3=a
+		elif b&lt;a and b&lt;c:
+			J3=b
+		elif c&lt;a and c&lt;b:
+			J3=c
+		if b&lt;a&lt;c or b&gt;a&gt;c:
+			J4=a
+		elif a&lt;b&lt;c or a&gt;b&gt;c:
+			J4=b
+		elif a&lt;c&lt;b or a&gt;c&gt;b:
+			J4=c
+		if a&gt;b and a&gt;c:
+			J5=a
+		elif b&gt;a and b&gt;c:
+			J5=b
+		elif c&gt;a and c&gt;b:
+			J5=c
+		a=J3
+		b=J4
+		c=J5
+		if a%3==0 and b%4==0 and c%5==0:
+			print("Египетский треугольник")
 except ValueError:
- print("Недопустимое значение")
+	print("Недопустимое значение")
 </tab>
 <br>
 <tab>try:
