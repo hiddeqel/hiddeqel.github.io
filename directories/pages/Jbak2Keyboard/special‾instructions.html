@@ -16,6 +16,12 @@
 <tai>$selupcase</tai> — делает все буквы в выделенном тексте прописными.
 </li>
 <li>
+<tai>$selVerseMode</tai> — применяет специнструкцию <tai>$selupcase</tai> к первой букве каждого абзаца в выделенном тексте.
+</li>
+<li>
+<tai>$selAsInTheSentences</tai> — применяет специнструкцию <tai>$selupcase</tai> к каждой первой букве, находящейся после символов, указанных в <it>jbak2 Keyboard</it> → <it>Автоввод</it> → <it>Правила автосмены</it> в разделе <it>Переход в верхний регистр</it> → <it>Символы смены регистра</it>. Работает, несмотря на пробелы.
+</li>
+<li>
 <tai>$selinsertword</tai> — то, что вы укажете в квадратных скобках после <tai>=</tai> и этой специнструкции, будет вставлено между каждым символом в выделенном тексте.
 <br>
 Например, выделив текст <tai>12345</tai> и применив шаблон <tai>$selinsertword=[○]</tai>, вы получите текст <tai>1○2○3○4○5</tai>.
@@ -27,9 +33,6 @@
 </li>
 <li>
 <tai>$seltranslit</tai> — транслитерирует выделенный текст с русского на английский.
-</li>
-<li>
-<tai>$selVerseMode</tai> — применяет специнструкцию <tai>$selupcase</tai> к первой букве каждого абзаца в выделенном тексте.
 </li>
 <li>
 <a name="$userMenu"><tai>$userMenu</tai> — позволяет создать своё собственное <object><a href="https://iloveyoung.github.io/directories/pages/Jbak2Keyboard/menu.html">меню</a></object>.</a> Общий вид специнструкции:
@@ -48,9 +51,6 @@
 <li><tai>0,<span style="font-family:KaTeX_Math">y</span></tai> — <span style="font-family:KaTeX_Math">y</span> будет числом столбцов кнопок меню при горизонтальной ориентации телефона; число же столбцов кнопок меню для вертикальной ориентации телефона будет браться из настроек.</li>
 <li><tai><span style="font-family:KaTeX_Math">x</span>,<span style="font-family:KaTeX_Math">y</span></tai> — <span style="font-family:KaTeX_Math">x</span> будет числом столбцов кнопок меню при вертикальной ориентации телефона, а <span style="font-family:KaTeX_Math">y</span> будет числом столбцов кнопок меню при горизонтальной ориентации телефона.</li>
 </ul>
-</li>
-<li>
-<tai>$selAsInTheSentences</tai> — применяет специнструкцию <tai>$selupcase</tai> к каждой первой букве, находящейся после символов, указанных в <it>jbak2 Keyboard</it> → <it>Автоввод</it> → <it>Правила автосмены</it> в разделе <it>Переход в верхний регистр</it> → <it>Символы смены регистра</it>. Работает, несмотря на пробелы.
 </li>
 <li>
 <tai>$paste</tai> — альтернатива <a href="https://iloveyoung.github.io/directories/pages/Jbak2Keyboard/key‾codes.html#-321">кода -321</a>.
