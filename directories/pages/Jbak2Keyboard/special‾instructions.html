@@ -3,7 +3,7 @@
 <link rel="icon" href="/directories/files/pages‾icons/Jbak2Keyboard.png">
 <meta name="theme-color" content="#0F131C">
 </head><body>
-Специнструкции реализуются через шаблоны.
+Специнструкции реализуются через <a href="https://iloveyoung.github.io/directories/pages/Jbak2Keyboard/key‾codes.html#-502">шаблоны</a>.
 <ul>
 <li>
 Специнструкции <tai>$select</tai>, <tai>$selword</tai> и <tai>$selline</tai> заменяются на выделенный текст. Например, в шаблоне у вас <tai>A$selectB</tai>. В текстовом поле у вас <tai>123</tai>. Если вы выделите <tai>2</tai> и примените шаблон, то в текстовом поле получится <tai>1A2B3</tai>. Можно использовать более одного раза в шаблоне, например: <tai>1$select2$select3</tai> + <tai>A</tai> = <tai>1A2A3</tai>.<br>Если на момент применения шаблона никакой текст выделен не будет, специнструкция <tai>$select</tai> будет игнорироваться, <tai>$selword</tai> будет заменяться на слово, в котором будет находиться курсор на момент применения шаблона, а <tai>$selline</tai> будет заменяться на абзац, в котором будет находиться курсор на момент применения шаблона.
