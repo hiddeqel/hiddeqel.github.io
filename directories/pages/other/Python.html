@@ -38,7 +38,7 @@ while inf==1:
 			seq.append(float(inp))
 	except ValueError:
 		print("Введите число")
-print(f"Введённые числа по возрастанию:\n{sorted(seq)}\nВведённые числа по убыванию:\n{sorted(seq, reverse=True)}\nМинимальное число:\n{min(seq)}\nМаксимальное число:\n{max(seq)}\nСреднее арифметическое:\n{round(sum(seq)/len(seq), 5)}\nМедиана:")
+print(f"Введённые числа по возрастанию:\n{sorted(seq)}\nВведённые числа по убыванию:\n{sorted(seq, reverse=True)}\nРазмах:\n{max(seq)-min(seq)}\nСреднее арифметическое:\n{round(sum(seq)/len(seq), 5)}\nМедиана:")
 if len(seq)%2==1:
 	print(sorted(seq).pop(len(seq)//2))
 else:
