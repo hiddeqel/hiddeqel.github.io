@@ -1,0 +1,25 @@
+<!DOCTYPE html><html translate="no"><head><link rel="stylesheet" href="/styles.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous"><script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script><script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script><meta name="viewport" content="width=device-width, initial-scale=1"><meta charset="utf-8">
+<title>Формула количества химических элементов в периоде</title>
+<link rel="icon" href="/directories/files/pages‾icons/Chemistry.png">
+<meta name="theme-color" content="#0D47A1">
+</head><body>
+В первом периоде два химических элемента, во втором и третьем периодах по восемь химических элементов, в четвёртом и пятом периодах по восемнадцать химических элементов, в шестом и седьмом периодах по тридцать два химических элемента:
+$$2; 8; 8; 18; 18; 32; 32; \ldots$$
+Мне удалось выразить данную числовую последовательность (обозначив её за \(E_n\)) в виде формулы:
+<div style="background-color:#FFD700;border:1px solid black;padding-top:7px;padding-bottom:7px">
+$$E_n=\frac{\left(n+\sqrt{2^{(-1)^n+1}}\right)^2}{2}$$
+</div>
+И действительно:
+<br>
+<ol>
+<li>\(E_1=\frac{\left(1+\sqrt{2^{(-1)^1+1}}\right)^2}{2}=\frac{\left(1+\sqrt{2^{-1+1}}\right)^2}{2}=\frac{\left(1+\sqrt{2^0}\right)^2}{2}=\frac{\left(1+\sqrt{1}\right)^2}{2}=\frac{(1+1)^2}{2}=\frac{2^2}{2}=\frac{4}{2}=2\)</li>
+<li>\(E_2=\frac{\left(2+\sqrt{2^{(-1)^2+1}}\right)^2}{2}=\frac{\left(2+\sqrt{2^{1+1}}\right)^2}{2}=\frac{\left(2+\sqrt{2^2}\right)^2}{2}=\frac{\left(2+\sqrt{4}\right)^2}{2}=\frac{(2+2)^2}{2}=\frac{4^2}{2}=\frac{16}{2}=8\)</li>
+<li>\(E_3=\frac{\left(3+\sqrt{2^{(-1)^3+1}}\right)^2}{2}=\frac{\left(3+\sqrt{2^{-1+1}}\right)^2}{2}=\frac{\left(3+\sqrt{2^0}\right)^2}{2}=\frac{\left(3+\sqrt{1}\right)^2}{2}=\frac{(3+1)^2}{2}=\frac{4^2}{2}=\frac{16}{2}=8\)</li>
+<li>\(E_4=\frac{\left(4+\sqrt{2^{(-1)^4+1}}\right)^2}{2}=\frac{\left(4+\sqrt{2^{1+1}}\right)^2}{2}=\frac{\left(4+\sqrt{2^2}\right)^2}{2}=\frac{\left(4+\sqrt{4}\right)^2}{2}=\frac{(4+2)^2}{2}=\frac{6^2}{2}=\frac{36}{2}=18\)</li>
+<li>\(E_5=\frac{\left(5+\sqrt{2^{(-1)^5+1}}\right)^2}{2}=\frac{\left(5+\sqrt{2^{-1+1}}\right)^2}{2}=\frac{\left(5+\sqrt{2^0}\right)^2}{2}=\frac{\left(5+\sqrt{1}\right)^2}{2}=\frac{(5+1)^2}{2}=\frac{6^2}{2}=\frac{36}{2}=18\)</li>
+<li>\(E_6=\frac{\left(6+\sqrt{2^{(-1)^6+1}}\right)^2}{2}=\frac{\left(6+\sqrt{2^{1+1}}\right)^2}{2}=\frac{\left(6+\sqrt{2^2}\right)^2}{2}=\frac{\left(6+\sqrt{4}\right)^2}{2}=\frac{(6+2)^2}{2}=\frac{8^2}{2}=\frac{64}{2}=32\)</li>
+<li>\(E_7=\frac{\left(7+\sqrt{2^{(-1)^7+1}}\right)^2}{2}=\frac{\left(7+\sqrt{2^{-1+1}}\right)^2}{2}=\frac{\left(7+\sqrt{2^0}\right)^2}{2}=\frac{\left(7+\sqrt{1}\right)^2}{2}=\frac{(7+1)^2}{2}=\frac{8^2}{2}=\frac{64}{2}=32\)</li>
+</ol>
+Исходя из этой формулы, в восьмом и девятом периодах будет по пятьдесят химических элементов, что подтверждается правилом Клечковского.
+</body></html>
+
