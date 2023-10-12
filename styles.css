@@ -1,4 +1,3 @@
-quo {display:block;text-align:center;padding:20px}
 /* Подключение:
 <link rel="stylesheet" href="/styles.css">
 */
@@ -44,6 +43,7 @@ deg90 {transform:rotate(90deg);display:inline-block}
 deg180 {transform:rotate(180deg);display:inline-block}
 deg270 {transform:rotate(270deg);display:inline-block}
 mi {transform:scaleX(-1);display:inline-block}
+quo {display:block;text-align:center;padding:20px}
 .fq {height:2ex;vertical-align:text-top}
 .it {height:2ex;vertical-align:middle}
 ti {text-indent:30px;display:inline-block}
