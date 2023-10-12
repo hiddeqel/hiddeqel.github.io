@@ -1,4 +1,4 @@
-quo::after {content:url('/directories/files/svg‾icons/format‾quote.svg')}
+quo::after {content:url('/directories/files/svg‾icons/format‾quote.svg');height:2ex;vertical-align:text-top}
 /* Подключение:
 <link rel="stylesheet" href="/styles.css">
 */
