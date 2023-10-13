@@ -5,6 +5,7 @@ body,chem .katex {font-family:Cherry Swash,PT Mono,NAMU,Zen Kurenaido,Source San
 body {word-break:break-word}
 .in {font-family:Inter}
 .ar {font-family:Arial}
+h1, h3 {text-indent:10px;}
 table[class=tac] ol,ul {text-align:left}
 hr {border:1px solid black}
 table {border-collapse:collapse;display:block;overflow:scroll}
@@ -46,7 +47,6 @@ mi {transform:scaleX(-1);display:inline-block}
 quo {display:block;text-align:center;padding:20px}
 .fq {height:2ex;vertical-align:text-top}
 .it {height:2ex;vertical-align:middle}
-ti {text-indent:30px;display:inline-block}
 wspl,.wspl,[class=wspl] td {white-space:pre-line}
 nw {white-space:nowrap}
 .vat,[class=vat] td {vertical-align:top}
