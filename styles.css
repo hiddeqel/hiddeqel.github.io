@@ -17,7 +17,7 @@ ol,ul {padding-right:20px}
 .w100 {width:100%}
 min {vertical-align:super;font-size:70%;text-decoration-line:underline}
 details summary::before {content:"Показать: ";font-style:italic}
-details[open] summary::before {content:"Скрыть:[";font-style:italic}
+details[open] summary::before {content:"Скрыть: ";font-style:italic}
 details summary {list-style-type:"\27A1"}
 details[open] summary {list-style-type:"\2B07"}
 bu,.bu {user-select:none;background-color:#FFC107;padding:5px;border-radius:5px;display:inline-block;text-decoration:none;color:black;cursor:pointer}
