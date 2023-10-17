@@ -5,7 +5,7 @@ body,chem .katex {font-family:Cherry Swash,PT Mono,NAMU,Zen Kurenaido,Source San
 body {word-break:break-word}
 .in {font-family:Inter}
 .ar {font-family:Arial}
-[attribute * = value]
+[attribute * = value] {background-repeat:no-repeat;background-size:100%}
 h1, h3 {text-indent:10px;font-weight:normal}
 table[class=tac] ol,ul {text-align:left}
 hr {border:1px solid black}
