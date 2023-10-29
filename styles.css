@@ -7,8 +7,7 @@ qi::before {content:url('https://fonts.gstatic.com/s/i/short-term/release/materi
 qi::after {content:url('https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsrounded/format_quote/default/20px.svg')}
 qb::before {content:url('https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsrounded/format_quote/default/20px.svg')}
 qb::after {content:url('https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsrounded/format_quote/default/20px.svg')}
-qb
-quo {display:block;text-align:center;padding:20px}
+qb {display:block;text-align:center;padding:20px}
 .fq {height:2ex;vertical-align:text-top}
 .in {font-family:Inter}
 .ar {font-family:Arial}
