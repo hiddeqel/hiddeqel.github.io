@@ -5,6 +5,8 @@ body,chem .katex {font-family:Cherry Swash,PT Mono,NAMU,Zen Kurenaido,Source San
 body {word-break:break-word}
 fq::before {content:url('https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsrounded/format_quote/default/20px.svg')}
 fq::after {content:url('https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsrounded/format_quote/default/20px.svg')}
+quo {display:block;text-align:center;padding:20px}
+.fq {height:2ex;vertical-align:text-top}
 .in {font-family:Inter}
 .ar {font-family:Arial}
 .bi {background-repeat:no-repeat;background-size:100%}
@@ -48,8 +50,6 @@ deg90 {transform:rotate(90deg);display:inline-block}
 deg180 {transform:rotate(180deg);display:inline-block}
 deg270 {transform:rotate(270deg);display:inline-block}
 mi {transform:scaleX(-1);display:inline-block}
-quo {display:block;text-align:center;padding:20px}
-.fq {height:2ex;vertical-align:text-top}
 .it {height:2ex;vertical-align:middle}
 wspl,.wspl,[class=wspl] td {white-space:pre-line}
 nw {white-space:nowrap}
