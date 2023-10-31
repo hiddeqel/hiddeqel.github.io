@@ -1,0 +1,14 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 84" font-family="sans-serif" text-anchor="middle">
+<path d="m1 42a44 40 0 1 1 0 1" fill="#8ad"/>
+<path d="m9 48a36 32 0 1 1 0 1" fill="#bd5"/>
+<path d="m17 54a28 24 0 1 1 0 1" fill="#fe8"/>
+<path d="m25 60a20 16 0 1 1 0 1" fill="#f95"/>
+<path d="m31 66a14 8 0 1 1 0 1" fill="#d85"/>
+<text font-size="3.6">
+<tspan x="45" y="12">Толкование</tspan>
+<tspan x="45" y="26">Библия</tspan>
+<tspan x="45" y="41">Новый Завет</tspan>
+<tspan x="45" y="56">Четвероевангелие</tspan>
+<tspan x="45" y="68">Ин. 3:16</tspan>
+</text>
+</svg>
