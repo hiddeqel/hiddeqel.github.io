@@ -5,10 +5,10 @@ https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsrounded/format_q
 */
 body,chem .katex {font-family:Cherry Swash,PT Mono,NAMU,Zen Kurenaido,Source Sans Pro,Noto Emoji,"M PLUS 1p",Noto Sans Japanese,Inter}
 body {word-break:break-word}
-qi::before {content:url('')}
-qi::after {content:url('https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsrounded/format_quote/default/20px.svg')}
-qb::before {content:url('https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsrounded/format_quote/default/20px.svg')}
-qb::after {content:url('https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsrounded/format_quote/default/20px.svg')}
+qi::before {content:url('https://upload.wikimedia.org/wikipedia/commons/3/39/Flag_of_the_Vatican_City_(2023–present).svg')}
+qi::after {content:url('https://upload.wikimedia.org/wikipedia/commons/3/39/Flag_of_the_Vatican_City_(2023–present).svg')}
+qb::before {content:url('https://upload.wikimedia.org/wikipedia/commons/3/39/Flag_of_the_Vatican_City_(2023–present).svg')}
+qb::after {content:url('https://upload.wikimedia.org/wikipedia/commons/3/39/Flag_of_the_Vatican_City_(2023–present).svg')}
 qb {display:block;text-align:center;padding:20px}
 .in {font-family:Inter}
 .ar {font-family:Arial}
