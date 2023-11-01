@@ -12,8 +12,8 @@ qb {display:block;text-align:center;padding:20px}
 .ar {font-family:Arial}
 .bi {background-repeat:no-repeat;background-size:100%}
 h1, h3 {text-indent:10px;font-weight:normal}
-table[class=tac] ol,ul {text-align:left}
 hr {border:1px solid black}
+table[class=tac] ol,ul {text-align:left}
 table {border-collapse:collapse;display:block;overflow:scroll}
 td {border:1px solid black}
 th {background-color:#F7EBDB;text-align:center;font-weight:normal;border:1px solid black}
