@@ -13,13 +13,13 @@ qb {display:block;text-align:center;padding:20px}
 .bi {background-repeat:no-repeat;background-size:100%}
 h1, h3 {text-indent:10px;font-weight:normal}
 hr {border:1px solid black}
+table[class=nw] th,td {white-space:nowrap}
 table[class=tac] ol,ul {text-align:left}
 table {border-collapse:collapse;display:block;overflow:scroll}
 td {border:1px solid black}
 th {background-color:#F7EBDB;text-align:center;font-weight:normal;border:1px solid black}
 wspl,.wspl,[class=wspl] td {white-space:pre-line}
 nw {white-space:nowrap}
-table[class=nw] th,td {white-space:nowrap}
 :target {background-color:rgba(221,68,204,.5)}
 a {text-underline-position:under}
 ol,ul {padding-right:20px}
