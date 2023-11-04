@@ -3,11 +3,6 @@
 */
 body,chem .katex {font-family:Cherry Swash,PT Mono,NAMU,Zen Kurenaido,Source Sans Pro,Noto Emoji,"M PLUS 1p",Noto Sans Japanese,Inter}
 body {word-break:break-word}
-qi::before {content:url('/directories/files/images/svg/quote.svg')}
-qi::after {content:url('/directories/files/images/svg/quote.svg')}
-qb::before {content:url('/directories/files/images/svg/quote.svg')}
-qb::after {content:url('/directories/files/images/svg/quote.svg')}
-qb {display:block;text-align:center;padding:20px}
 .in {font-family:Inter}
 .ar {font-family:Arial}
 .bi {background-repeat:no-repeat;background-size:100%}
@@ -29,6 +24,11 @@ details summary::before {content:"Показать: ";font-style:italic}
 details[open] summary::before {content:"Скрыть: ";font-style:italic}
 details summary {list-style-type:"\27A1"}
 details[open] summary {list-style-type:"\2B07"}
+qi::before {content:url('/directories/files/images/svg/quote.svg')}
+qi::after {content:url('/directories/files/images/svg/quote.svg')}
+qb::before {content:url('/directories/files/images/svg/quote.svg')}
+qb::after {content:url('/directories/files/images/svg/quote.svg')}
+qb {display:block;text-align:center;padding:20px}
 bf {display:inline-block;border:1px solid black}
 bfb {display:block;border:1px solid black}
 rf {display:inline-block;border:1px solid red;padding:1px}
