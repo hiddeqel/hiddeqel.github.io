@@ -2,8 +2,8 @@
 <link rel="stylesheet" href="/styles.css">
 */
 bu,.bu {display:block;user-select:none;background-color:#F1FF07;padding:5px;margin:5px;border-radius:5px;text-decoration:none;color:black;cursor:pointer}
-details summary[class=bu]::before {content:"Показать: ";font-style:italic}
-details[open] summary[class=bu]::before {content:"Скрыть: ";font-style:italic}
+details summary[class=bu]::before {content:""}
+details[open] summary[class=bu]::before {content:""}
 
 body,chem .katex {font-family:Cherry Swash,PT Mono,NAMU,Zen Kurenaido,Source Sans Pro,Noto Emoji,"M PLUS 1p",Noto Sans Japanese,Inter}
 body {word-break:break-word}
