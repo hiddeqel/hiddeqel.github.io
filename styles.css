@@ -1,7 +1,8 @@
 /* Подключение:
 <link rel="stylesheet" href="/styles.css">
+F1FF07
 */
-bu,.bu {display:block;user-select:none;background-color:#F1FF07;padding:5px;margin:5px;border-radius:5px;text-decoration:none;color:black;cursor:pointer}
+bu,.bu {display:block;user-select:none;background-color:#CFAD80;padding:5px;margin:5px;border-radius:5px;text-decoration:none;color:black;cursor:pointer}
 details summary[class=bu]::before {content:""}
 details[open] summary[class=bu]::before {content:""}
 
