@@ -1,7 +1,5 @@
 /* Подключение:
 <link rel="stylesheet" href="/styles.css">
-
-transform:translateY(-20px);
 */
 .test::after {vertical-align:super;display:inline-block;content:url('/directories/files/images/svg/external_reference.svg')}
 
