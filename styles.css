@@ -2,6 +2,7 @@
 <link rel="stylesheet" href="/styles.css">
 */
 .test::after {vertical-align:top;display:inline-block;content:url('/directories/files/images/svg/external_reference.svg')}
+.test2::after {vertical-align:top;display:inline-block;content:url('/directories/files/images/svg/Wikipedia_W.svg')}
 
 body,chem .katex {font-family:Cherry Swash,PT Mono,NAMU,Zen Kurenaido,Source Sans Pro,Noto Emoji,"M PLUS 1p",Noto Sans Japanese,Inter}
 body {word-break:break-word}
