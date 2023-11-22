@@ -9,8 +9,8 @@ body {word-break:break-word}
 .in {font-family:Inter}
 .ar {font-family:Arial}
 bu,.bu {display:block;user-select:none;background-color:#CFAD80;padding:5px;margin:5px;border-radius:5px;text-decoration:none;color:black;cursor:pointer}
-details summary[class ~ = bu]::before {content:""}
-details[open] summary[class ~ = bu]::before {content:""}
+details summary[class ^ = "bu"]::before {content:""}
+details[open] summary[class ^ = "bu"]::before {content:""}
 .bi {background-repeat:no-repeat;background-size:100%}
 h1, h3 {text-indent:10px;font-weight:normal}
 hr {border:1px solid black}
