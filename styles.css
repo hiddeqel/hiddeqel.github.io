@@ -1,9 +1,6 @@
 /* Подключение:
 <link rel="stylesheet" href="/styles.css">
 */
-.er::after {vertical-align:top;display:inline-block;content:url('/directories/files/images/svg/external_reference.svg')}
-.ww::after {vertical-align:top;display:inline-block;content:url('/directories/files/images/svg/Wikipedia_W.svg')}
-
 body,chem .katex {font-family:Cherry Swash,PT Mono,NAMU,Zen Kurenaido,Source Sans Pro,Noto Emoji,"M PLUS 1p",Noto Sans Japanese,Inter}
 body {word-break:break-word}
 .in {font-family:Inter}
@@ -35,6 +32,8 @@ qi::after {content:url('/directories/files/images/svg/quote.svg')}
 qb::before {content:url('/directories/files/images/svg/quote.svg')}
 qb::after {content:url('/directories/files/images/svg/quote.svg')}
 qb {display:block;text-align:center;padding:20px}
+.er::after {vertical-align:top;display:inline-block;content:url('/directories/files/images/svg/external_reference.svg')}
+.ww::after {vertical-align:top;display:inline-block;content:url('/directories/files/images/svg/Wikipedia_W.svg')}
 bf {display:inline-block;border:1px solid black}
 bfb {display:block;border:1px solid black}
 rf {display:inline-block;border:1px solid red;padding:1px}
