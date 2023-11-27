@@ -5,6 +5,7 @@ body,chem .katex {font-family:Cherry Swash,PT Mono,NAMU,Zen Kurenaido,Source San
 body {word-break:break-word}
 .in {font-family:Inter}
 .ar {font-family:Arial}
+.cs {font-family:Church Slavonic}
 bu,.bu {display:block;user-select:none;background-color:#CFAD80;padding:5px;margin:5px;border-radius:5px;text-decoration:none;color:black;cursor:pointer}
 details summary[class~="bu"]::before {content:""}
 details[open] summary[class~="bu"]::before {content:""}
