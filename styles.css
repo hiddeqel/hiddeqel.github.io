@@ -6,6 +6,11 @@ body {word-break:break-word}
 .in {font-family:Inter}
 .ar {font-family:Arial}
 .cs {font-family:Church Slavonic}
+tac {display:block;text-align:center}
+.tac,[class=tac] td {text-align:center}
+tar {display:block;text-align:right}
+tab {user-select:all;background-color:rgba(37,37,37,.4);border-radius:3px;white-space:pre;display:block;overflow:scroll}
+tai {user-select:all;background-color:rgba(37,37,37,.4);border-radius:3px;white-space:pre;display:inline}
 bu,.bu {display:block;user-select:none;background-color:#CFAD80;padding:5px;margin:5px;border-radius:5px;text-decoration:none;color:black;cursor:pointer}
 details summary[class~="bu"]::before {content:""}
 details[open] summary[class~="bu"]::before {content:""}
@@ -49,11 +54,6 @@ sups {vertical-align:super;font-size:70%}
 .f200 {font-size:200%}
 hc {display:block;text-align:center;font-size:200%}
 hc2 {display:block;text-align:center;font-size:140%}
-tac {display:block;text-align:center}
-.tac,[class=tac] td {text-align:center}
-tar {display:block;text-align:right}
-tab {user-select:all;background-color:rgba(37,37,37,.4);border-radius:3px;white-space:pre;display:block;overflow:scroll}
-tai {user-select:all;background-color:rgba(37,37,37,.4);border-radius:3px;white-space:pre;display:inline}
 kn {font-kerning:none}
 deg90 {transform:rotate(90deg);display:inline-block}
 deg180 {transform:rotate(180deg);display:inline-block}
