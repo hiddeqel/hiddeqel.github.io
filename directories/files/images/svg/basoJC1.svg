@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="260pt" height="107pt" viewBox="0 0 260 107">
+<defs>
+<clipPath id="clip_0">
+<path d="M0 0H260V107H0Z" fill-rule="evenodd"/>
+</clipPath>
+</defs>
+<g clip-path="url(#clip_0)">
+<path transform="matrix(.25,0,0,.25,0,0)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M340.2 41C351.13526 41 360 49.864748 360 60.799989V120.20001C360 131.13526 351.13526 140 340.2 140H59.799989C48.864748 140 40 131.13526 40 120.20001V60.799989C40 49.864748 48.864748 41 59.799989 41H340.2Z"/>
+<text xml:space="preserve" transform="matrix(.25 0 0 .25 30 17.5)" font-size="30" font-family="Roboto"><tspan y="32" x="1 21 38 54 67.38281 84.38281 101.38281 108.38281 131.38282 145.38282">&#x0421;&#x0432;&#x044f;&#x0442;&#x043e;&#x0439; &#x0414;&#x0443;&#x0445;</tspan></text>
+<path transform="matrix(.25,0,0,.25,0,0)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M980.2 41C991.13528 41 1000 49.864748 1000 60.799989V120.20001C1000 131.13526 991.13528 140 980.2 140H699.8C688.86477 140 680 131.13526 680 120.20001V60.799989C680 49.864748 688.86477 41 699.8 41H980.2Z"/>
+<text xml:space="preserve" transform="matrix(.25 0 0 .25 188.625 17.5)" font-size="30" font-family="Roboto"><tspan y="32" x="0 23 39 56 72 79 105 121 138 155">&#x0414;&#x0435;&#x0432;&#x0430; &#x041c;&#x0430;&#x0440;&#x0438;&#x044f;</tspan></text>
+<path transform="matrix(.25,0,0,.25,0,0)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M360 90.5H680"/>
+<path transform="matrix(.25,0,0,.25,0,0)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M519.9999 290.5 520.0001 90.5"/>
+<path transform="matrix(.25,0,0,.25,0,0)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M660.2 290.5C671.13528 290.5 680 299.36476 680 310.3V369.7C680 380.63526 671.13528 389.5 660.2 389.5H379.8C368.86476 389.5 360 380.63526 360 369.7V310.3C360 299.36476 368.86476 290.5 379.8 290.5H660.2Z"/>
+<text xml:space="preserve" transform="matrix(.25 0 0 .25 104.125 79.875)" font-size="30" font-family="Roboto"><tspan y="32" x="0 21 38 54 67.80859 83.80859 90.80859 109.80859 126.80859 143.8086 159.8086 173.1914 190.1914">&#x0418;&#x0438;&#x0441;&#x0443;&#x0441; &#x0425;&#x0440;&#x0438;&#x0441;&#x0442;&#x043e;&#x0441;</tspan></text>
+</g>
+</svg>
