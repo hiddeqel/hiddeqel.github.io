@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+	"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg  width="520.5" height="215.25" viewBox="0 0 520.5 215.25" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  version="1.1">
+  <desc>Lekh Diagram</desc>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="none" d=" M 170.1,20.5  C 175.568,20.5 180,24.9324 180,30.4  L 180,60.1  C 180,65.5676 175.568,70 170.1,70  L 29.9,70  C 24.4324,70 20,65.5676 20,60.1  L 20,30.4  C 20,24.9324 24.4324,20.5 29.9,20.5  L 170.1,20.5  Z "/>
+  <text  x="100" y="45.25" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">Святой Дух</text>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="none" fill-opacity="0" d=" M 490.1,20.5  C 495.568,20.5 500,24.9324 500,30.4  L 500,60.1  C 500,65.5676 495.568,70 490.1,70  L 349.9,70  C 344.432,70 340,65.5676 340,60.1  L 340,30.4  C 340,24.9324 344.432,20.5 349.9,20.5  L 490.1,20.5  Z "/>
+  <text  x="420" y="45.25" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">Дева Мария</text>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="none" d=" M 180,45.25  L 340,45.25 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="none" d=" M 260,145.25  L 260,45.25 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="none" d=" M 330.1,145.25  C 335.568,145.25 340,149.682 340,155.15  L 340,184.85  C 340,190.318 335.568,194.75 330.1,194.75  L 189.9,194.75  C 184.432,194.75 180,190.318 180,184.85  L 180,155.15  C 180,149.682 184.432,145.25 189.9,145.25  L 330.1,145.25  Z "/>
+  <text  x="260" y="170" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">Иисус Христос</text>
+</svg>

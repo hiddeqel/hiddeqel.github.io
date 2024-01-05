@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+	"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg  width="201" height="239.5" viewBox="0 0 201 239.5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  version="1.1">
+  <desc>Lekh Diagram</desc>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="none" d=" M 170.6,20  C 176.068,20 180.5,24.4324 180.5,29.9  L 180.5,59.6  C 180.5,65.0676 176.068,69.5 170.6,69.5  L 30.4,69.5  C 24.9324,69.5 20.5,65.0676 20.5,59.6  L 20.5,29.9  C 20.5,24.4324 24.9324,20 30.4,20  L 170.6,20  Z "/>
+  <text  x="100.5" y="44.75" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">Иосиф Обручник</text>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="none" d=" M 100.5,169.5  L 100.5,69.5 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="none" d=" M 170.6,169.5  C 176.068,169.5 180.5,173.932 180.5,179.4  L 180.5,209.1  C 180.5,214.568 176.068,219 170.6,219  L 30.4,219  C 24.9324,219 20.5,214.568 20.5,209.1  L 20.5,179.4  C 20.5,173.932 24.9324,169.5 30.4,169.5  L 170.6,169.5  Z "/>
+  <text  x="100.5" y="194.25" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">
+    <tspan  x="100.5" dy="-7.5">Братья и сёстры</tspan>
+    <tspan  x="100.5" dy="15"> Иисуса Христа</tspan>
+  </text>
+</svg>
