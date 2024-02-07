@@ -6,6 +6,7 @@ body {word-break:break-word}
 .in {font-family:Inter}
 .ar {font-family:Arial}
 .cs {font-family:Church Slavonic}
+ab {text-indent:10px}
 tac {display:block;text-align:center}
 .tac,[class=tac] td {text-align:center}
 tar {display:block;text-align:right}
