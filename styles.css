@@ -45,11 +45,11 @@ bf {display:inline-block;border:1px solid black}
 bfb {display:block;border:1px solid black}
 rf {display:inline-block;border:1px solid red;padding:1px}
 rfb {display:block;border:1px solid red}
-bo {font-weight:bold}
-it {font-style:italic}
-un {text-decoration-line:underline;text-underline-position:under}
-lt {text-decoration-line:line-through}
-ov {text-decoration-line:overline}
+bo,.bo {font-weight:bold}
+it,.it {font-style:italic}
+un,.un {text-decoration-line:underline;text-underline-position:under}
+lt,.lt {text-decoration-line:line-through}
+ov,.ov {text-decoration-line:overline}
 subs {vertical-align:sub;font-size:70%}
 sups {vertical-align:super;font-size:70%}
 .f200 {font-size:200%}
