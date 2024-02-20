@@ -1,0 +1,189 @@
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="284"
+   height="432"
+   viewBox="-51 -409 284 432"
+   id="svg35"
+   sodipodi:docname="right triangle kwd.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata41">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>30-60-90 triangle by Incnis Mrsi</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs39" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1533"
+     inkscape:window-height="845"
+     id="namedview37"
+     showgrid="false"
+     inkscape:zoom="1.27"
+     inkscape:cx="142"
+     inkscape:cy="197.82276"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="_30deg" />
+  <title
+     id="title2">30-60-90 triangle by Incnis Mrsi</title>
+  <style
+     type="text/css"
+     id="style4"><![CDATA[
+    polygon { stroke-width:4pt; stroke:black; stroke-linecap:butt; fill:none; }
+    path,polyline { stroke-width:2pt; stroke:black; stroke-linecap:butt; fill:none; }
+    text { fill:black; font-family:serif; font-size:28px; stroke:none; }
+    line { stroke-width:1.6pt; stroke:black; stroke-linecap:butt; fill:none; }
+   ]]></style>
+  <!--sides-->
+  <polygon
+     id="triangle"
+     points="0,-400 0,0 230.94,0 "
+     transform="matrix(0.91847622,0,0,0.95496915,-2.9112611,-18.53973)"
+     style="fill:none;stroke:#000000;stroke-width:4.00000012pt;stroke-linecap:butt" />
+  <!-- right angle -->
+  <polyline
+     id="right"
+     points="40,0 40,-40 0,-40"
+     transform="matrix(0.91847622,0,0,0.95496915,-2.9112611,-18.53973)"
+     style="fill:none;stroke:#000000;stroke-width:2.00000006pt;stroke-linecap:butt" />
+  <!--arcs for angles-->
+  <g
+     id="_60deg"
+     transform="matrix(0.91847622,0,0,0.95496915,-2.9112611,-18.53973)">
+    <path
+       d="M 196.3,-60 A 69.28,69.28 0 0 0 161.66,0"
+       id="path23"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:2.00000006pt;stroke-linecap:butt" />
+  </g>
+  <g
+     id="_30deg">
+    <path
+       d="m -2.9112611,-334.36713 a 63.632032,66.160263 0 0 0 31.8160161,-8.86211"
+       id="path28"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:1.87308991pt;stroke-linecap:butt" />
+    <path
+       d="M -2.9112611,-324.12986 A 73.478098,76.397531 0 0 0 33.827788,-334.36713"
+       id="path30"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:1.87308991pt;stroke-linecap:butt" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:44.95415878px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.93654495px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-39.670769"
+       y="-173.62639"
+       id="text45"
+       transform="scale(0.98070704,1.0196725)"><tspan
+         sodipodi:role="line"
+         id="tspan43"
+         x="-39.670769"
+         y="-175"
+         style="stroke-width:0.93654495px">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:44.95415878px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.93654495px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="112.97868"
+       y="-204.59874"
+       id="text49"
+       transform="scale(0.98070704,1.0196725),rotate(60)"><tspan
+         sodipodi:role="line"
+         id="tspan47"
+         x="-180"
+         y="-204.59874"
+         style="stroke-width:0.93654495px">2.23607</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:44.95415878px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.93654495px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="73.079041"
+       y="18.767464"
+       id="text53"
+       transform="scale(0.98070704,1.0196725)"><tspan
+         sodipodi:role="line"
+         id="tspan51"
+         x="85"
+         y="22"
+         style="stroke-width:0.93654495px">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:50.39915466px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1.04998243px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       x="0.72154456"
+       y="-298.59845"
+       id="text57"
+       transform="scale(1.0311881,0.9697552)"><tspan
+         sodipodi:role="line"
+         id="tspan55"
+         x="0.72154456"
+         y="-295"
+         style="stroke-width:1.04998243px;fill:#ff0000;">β</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:48px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="100.96851"
+       y="-62.039368"
+       id="text61"><tspan
+         sodipodi:role="line"
+         id="tspan59"
+         x="100.96851"
+         y="-19.570618"></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.39915466px;line-height:125%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1.04998243px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       x="119.46436"
+       y="-49.847931"
+       id="text73"
+       transform="scale(1.0311881,0.9697552)"><tspan
+         sodipodi:role="line"
+         id="tspan71"
+         x="115"
+         y="-49.847931"
+         style="stroke-width:1.04998243px;fill:#ff0000;">α</tspan></text>
+  </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;line-height:125%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1.04998243px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       x="119.46436"
+       y="-49.847931"
+       id="text73"
+       transform="scale(1.0311881,0.9697552)"><tspan
+         sodipodi:role="line"
+         id="tspan71"
+         x="50"
+         y="-370"
+         style="stroke-width:1.04998243px;fill:#ff0000;">α=63.435°</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;line-height:125%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1.04998243px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       x="119.46436"
+       y="-49.847931"
+       id="text73"
+       transform="scale(1.0311881,0.9697552)"><tspan
+         sodipodi:role="line"
+         id="tspan71"
+         x="50"
+         y="-330"
+         style="stroke-width:1.04998243px;fill:#ff0000;">β=26.565°</tspan></text>
+</svg>
