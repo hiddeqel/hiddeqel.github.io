@@ -16,7 +16,7 @@ bu,.bu {display:block;user-select:none;background-color:#CFAD80;padding:5px;marg
 details summary[class~="bu"]::before {content:""}
 details[open] summary[class~="bu"]::before {content:""}
 .bi {background-repeat:no-repeat;background-size:100%}
-h1, h3 {text-indent:10px;font-weight:normal}
+h1, h2, h3, h4, h5, h6 {text-indent:10px;font-weight:normal}
 hr {border:1px solid black}
 table[class=tac] ol,ul {text-align:left}
 table {border-collapse:collapse;display:block;overflow:scroll}
