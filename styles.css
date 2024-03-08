@@ -65,6 +65,7 @@ mi {transform:scaleX(-1);display:inline-block}
 .vat,[class=vat] td {vertical-align:top}
 .fn {white-space:nowrap;vertical-align:super;text-decoration:none;user-select:none}
 [class=fn]::before {content:""}
+[class=fn]::after {content:""}
 /* Маркированные списки (<ul>) */
 .mn,ul[class=mn] li {list-style-type:none}
 .md,ul[class=md] li,.md2 ul li {list-style-type:disc}
