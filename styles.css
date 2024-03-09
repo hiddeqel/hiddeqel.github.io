@@ -3,10 +3,11 @@
 */
 body,chem .katex {font-family:Cherry Swash,PT Mono,NAMU,Zen Kurenaido,Source Sans Pro,Noto Emoji,"M PLUS 1p",Noto Sans Japanese,Inter}
 body {word-break:break-word}
-cf {display:block;border:1px solid black;background-color:#FAEBD7;padding:7px}
-.il {list-style-type:decimal;display:list-item;margin-left:40px}
 .in {font-family:Inter}
 .ar {font-family:Arial}
+
+cf {display:block;border:1px solid black;background-color:#FAEBD7;padding:7px}
+.il {list-style-type:decimal;display:list-item;margin-left:40px}
 .cs {font-family:Church Slavonic}
 ab {text-indent:10%;display:inline-block}
 tac {display:block;text-align:center}
