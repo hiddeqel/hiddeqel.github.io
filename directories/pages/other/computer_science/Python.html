@@ -346,4 +346,17 @@ else:
 	if n>2 and n%2==1:
 		return int((7*n+f(n-1)-f(n-2))/5)
 print(f(35))</tab>
+Сколько существует таких чисел n в промежутке [1;900], что f(n)=9?
+<tab>def f(n):
+	if n==0:
+		return 0
+	if n>0 and n%2==0:
+		return f(n/2)
+	else:
+		return 1+f(n-1)
+c=0
+for J in range(901):
+	if f(J)==9:
+		c+=1
+print(c)</tab>
 </body></html>
