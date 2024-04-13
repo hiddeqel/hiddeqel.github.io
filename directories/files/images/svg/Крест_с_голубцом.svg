@@ -1,9 +1,4 @@
-<?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
-	"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-
 <svg  width="181.421" height="277" viewBox="0 0 181.421 277" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  version="1.1">
-  <desc>Lekh Diagram</desc>
   <path  stroke-linecap="round"  stroke-width="10" stroke="rgb(0, 0, 0)" fill="none" d=" M 161.421,93.2107  L 90.7103,22.5003  L 20,93.2113 "/>
   <path  stroke-linecap="round"  stroke-width="10" stroke="rgb(0, 0, 0)" fill="none" d=" M 90.7105,254.5  L 90.7108,22.5 "/>
   <path  stroke-linecap="round"  stroke-width="10" stroke="rgb(0, 0, 0)" fill="none" d=" M 118.711,53.2109  L 62.7107,53.2111 "/>
