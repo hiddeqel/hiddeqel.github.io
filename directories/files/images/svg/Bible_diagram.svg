@@ -1,4 +1,8 @@
-﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 84" font-family="sans-serif" text-anchor="middle">
+<!--
+Оригинальный файл:
+https://ru.m.wikipedia.org/wiki/Файл:Venn_Diagram_of_Numbers-ru.svg
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 84" font-family="sans-serif" text-anchor="middle">
 <path d="m1 42a44 40 0 1 1 0 1" fill="#8ad"/>
 <path d="m9 48a36 32 0 1 1 0 1" fill="#bd5"/>
 <path d="m17 54a28 24 0 1 1 0 1" fill="#fe8"/>
