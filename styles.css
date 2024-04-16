@@ -5,7 +5,7 @@ body,chem .katex {font-family:Cherry Swash,PT Mono,NAMU,Source Sans Pro,Noto Emo
 body {word-break:break-word}
 .in {font-family:Inter}
 .ar {font-family:Arial}
-gr,.gr {font-family:Zen Kurenaido}
+gr,.gr,chem .katex {font-family:Zen Kurenaido}
 h6 {font-size:100%}
 h5 {font-size:120%}
 h4 {font-size:140%}
