@@ -5,6 +5,7 @@ body,chem .katex {font-family:Cherry Swash,PT Mono,NAMU,Zen Kurenaido,Source San
 body {word-break:break-word}
 .in {font-family:Inter}
 .ar {font-family:Arial}
+gr,.gr {font-family:Arial}
 h6 {font-size:100%}
 h5 {font-size:120%}
 h4 {font-size:140%}
