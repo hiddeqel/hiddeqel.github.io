@@ -143,3 +143,12 @@ unicode-range:U+2660-2667,U+2042,U+2295,U+2488-249b,U+24d8;
 font-family:Church Slavonic;
 src:url('https://azbyka.ru/biblia/assets/fonts/PonomarUnicode.ttf');
 }
+@font-face {
+font-family:Propisi;
+src:url('/directories/files/fonts/Propisi.ttf');
+}
+@font-face {
+font-family:Young_Love_ES;
+src:url('/directories/files/fonts/Young_Love_ES.ttf');
+}
+
