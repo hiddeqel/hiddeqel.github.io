@@ -365,4 +365,27 @@ for J in range(901):
 	if f(J)==9:
 		c+=1
 print(c)</tab>
+<br>
+<tab>print("Программа, позволяющая вывести простые числа в заданном диапазоне")
+try:
+   min=int(input("Пол: "))
+   if min>1:
+      max=int(input("Потолок: "))
+      if max>min:
+         list=[]
+         for num in range(min,max+1):
+            qod=0
+            for div in range(2,num):
+            	if num%div==0:
+            		qod+=1
+            if qod==0:
+            	list.append(num)
+         print(list)
+      else:
+      	print("Второе число должно быть больше первого")
+   else:
+   	print("Введите целое число большее 1")
+except ValueError:
+	print("Введите целое число большее 1")
+</tab>
 </body></html>
