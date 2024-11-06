@@ -1,0 +1,38 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+	"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg  width="429.77" height="304.75" viewBox="0 0 429.77 304.75" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  version="1.1">
+  <desc>Lekh Diagram</desc>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="none" d=" M 123.263,20  L 123.263,56  L 303.263,56  L 303.263,20  L 123.263,20 "/>
+  <text  x="213.263" y="38" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">Источники вероучения</text>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="none" d=" M 213.264,55.9998  L 112.507,114.172 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(0, 0, 0)" d=" M 124.417,114.801  L 117.917,103.543  L 112.507,114.172  Z "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="none" d=" M 213.263,56  L 314.02,114.172 "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="rgb(0, 0, 0)" d=" M 308.609,103.543  L 302.109,114.801  L 314.02,114.172  Z "/>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="none" d=" M 20.5,122.698  L 20.5,172  L 201.257,172  L 201.257,122.698  L 20.5,122.698 "/>
+  <text  x="110.879" y="147.349" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">
+    <tspan  x="110.879" dy="-7.5">Священное Писание</tspan>
+    <tspan  x="110.879" dy="15">(Святая Библия)</tspan>
+  </text>
+  <path  stroke-linecap="round"  stroke-width="2" stroke="rgb(0, 0, 0)" fill="none" d=" M 223.641,122.698  L 223.641,172  L 404.398,172  L 404.398,122.698  L 223.641,122.698 "/>
+  <text  x="314.019" y="147.349" style="font-size:15;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: middle;">
+    <tspan  x="314.019" dy="-7.5">Священное Предание</tspan>
+    <tspan  x="314.019" dy="15">(церковный опыт)</tspan>
+  </text>
+  <text  x="27.2574" y="221.25" style="font-size:14;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: start;">
+    <tspan  x="27.2574" dy="-28">77 книг:</tspan>
+    <tspan  x="27.2574" dy="14">• 66 канонических книг,</tspan>
+    <tspan  x="27.2574" dy="14">11 неканонических книг</tspan>
+    <tspan  x="27.2574" dy="14">• 50 книг Ветхого Завета,</tspan>
+    <tspan  x="27.2574" dy="14">27 книг Нового Завета</tspan>
+  </text>
+  <text  x="222.269" y="229.5" style="font-size:14;  fill:rgb(0, 0, 0);  stroke:rgb(0, 0, 0);  dominant-baseline: central; text-anchor: start;">
+    <tspan  x="222.269" dy="-35">• Каноны: Правила святых</tspan>
+    <tspan  x="222.269" dy="14">апостолов, Вселенских и</tspan>
+    <tspan  x="222.269" dy="14">иных признанных соборов</tspan>
+    <tspan  x="222.269" dy="14">• Творения святых отцов</tspan>
+    <tspan  x="222.269" dy="14">и учителей Церкви</tspan>
+    <tspan  x="222.269" dy="14">• Жития святых</tspan>
+  </text>
+</svg>
