@@ -1,6 +1,19 @@
-/* Подключение:
-<link rel="stylesheet" href="/styles.css">
-*/
+body {font-family:sans-serif;text-size-adjust:none}
+table {border-collapse:collapse}
+td,th {border:1px solid black}
+fieldset,legend {border:1px solid black;border-radius:3px}
+fieldset {margin-top:5px;margin-bottom:5px}
+
+tac {display:block;text-align:center}
+tar {display:block;text-align:right}
+wspl,.wspl {display:block;white-space:pre-line}
+
+[class=bsh] td {border-style:hidden}
+
+.vat {vertical-align:top}
+.w100 {width:100%}
+
+/*
 body,chem .katex {font-family:Cherry Swash,PT Mono,NAMU,Source Sans Pro,Noto Emoji,"M PLUS 1p",Noto Sans Japanese,Inter}
 body {word-break:break-word}
 .in {font-family:Inter}
@@ -151,4 +164,4 @@ src:url('/directories/files/fonts/Propisi.ttf');
 font-family:Young_Love_ES;
 src:url('/directories/files/fonts/Young_Love_ES.ttf');
 }
-
+*/
