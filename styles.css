@@ -84,7 +84,7 @@ mi {transform:scaleX(-1);display:inline-block}
 .it {height:2ex;vertical-align:middle}
 .vat,[class=vat] td {vertical-align:top}
 .fn {white-space:nowrap;vertical-align:super;text-decoration:none;user-select:none;font-weight:normal}
-/* Маркированные списки (<ul>) */
+
 .mn,ul[class=mn] li {list-style-type:none}
 .md,ul[class=md] li,.md2 ul li {list-style-type:disc}
 .check,ul[class=check] li {list-style-type:"✓ "}
@@ -93,7 +93,7 @@ mi {transform:scaleX(-1);display:inline-block}
 .bbc,ul[class=bbc] li {list-style-type:"☑ "}
 .bbx,ul[class=bbx] li {list-style-type:"☒ "}
 .cl,ul[class=cl] li {list-style-type:"\1f12f"}
-/* Нумерованные списки (<ol>) */
+
 @counter-style number_dot {system:fixed;symbols:⒈ ⒉ ⒊ ⒋ ⒌ ⒍ ⒎ ⒏ ⒐ ⒑ ⒒ ⒓ ⒔ ⒕ ⒖ ⒗ ⒘ ⒙ ⒚ ⒛;suffix:" "}
 .number_dot {list-style-type:number_dot}
 @counter-style number_circled {system:fixed;symbols:① ② ③ ④ ⑤ ⑥ ⑦ ⑧ ⑨ ⑩ ⑪ ⑫ ⑬ ⑭ ⑮ ⑯ ⑰ ⑱ ⑲ ⑳ ㉑ ㉒ ㉓ ㉔ ㉕ ㉖ ㉗ ㉘ ㉙ ㉚ ㉛ ㉜ ㉝ ㉞ ㉟ ㊱ ㊲ ㊳ ㊴ ㊵ ㊶ ㊷ ㊸ ㊹ ㊺ ㊻ ㊼ ㊽ ㊾ ㊿;suffix:" "}
@@ -106,7 +106,7 @@ mi {transform:scaleX(-1);display:inline-block}
 .cyrillic_dot {list-style-type:cyrillic_dot}
 .ma ::marker {content:counters(list-item,'.')' '}
 .ma li {list-style-position:inside}
-/* Шрифты */
+
 @font-face {
 font-family:Cherry Swash;
 src:url('/directories/files/fonts/CherrySwash-Regular.ttf');
