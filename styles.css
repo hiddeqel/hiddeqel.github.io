@@ -7,7 +7,8 @@ fieldset {margin-top:5px;margin-bottom:5px}
 
 tac {display:block;text-align:center}
 tar {display:block;text-align:right}
-wspl,.wspl {display:block;white-space:pre-line}
+wspl,.wspl {white-space:pre-line}
+wspl {display:block}
 
 [class=bsh] td {border-style:hidden}
 
