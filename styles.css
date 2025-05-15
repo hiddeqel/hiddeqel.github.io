@@ -1,5 +1,6 @@
 body {font-family:sans-serif;text-size-adjust:none}
 p {margin:0px;text-indent:25px}
+hr {border:1px solid black}
 table {border-collapse:collapse}
 td,th {border:1px solid black}
 fieldset,legend {border:1px solid black;border-radius:3px}
@@ -40,7 +41,6 @@ bu,.bu {display:block;user-select:none;background-color:#CFAD80;padding:5px;marg
 details summary[class~="bu"]::before {content:""}
 details[open] summary[class~="bu"]::before {content:""}
 .bi {background-repeat:no-repeat;background-size:100%}
-hr {border:1px solid black}
 table[class=tac] ol,ul {text-align:left}
 table {border-collapse:collapse;display:block;overflow:scroll}
 td {white-space:nowrap;border:1px solid black}
