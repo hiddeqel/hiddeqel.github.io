@@ -48,7 +48,6 @@ nw {white-space:nowrap}
 :target {background-color:#DDEEFF}
 a {text-underline-position:under}
 ol,ul {padding-right:20px}
-.w100 {width:100%}
 min {vertical-align:super;font-size:70%;text-decoration-line:underline}
 details summary::before {content:"Показать: ";font-style:italic}
 details[open] summary::before {content:"Скрыть: ";font-style:italic}
