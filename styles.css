@@ -32,9 +32,7 @@ cf {display:block;border:1px solid black;background-color:#FAEBD7;padding:7px}
 .il {list-style-type:decimal;display:list-item;margin-left:40px}
 .cs {font-family:Church Slavonic}
 ab {text-indent:10%;display:inline-block}
-tac {display:block;text-align:center}
 .tac,[class=tac] td {text-align:center}
-tar {display:block;text-align:right}
 tab {padding-left:3px;padding-right:3px;user-select:all;background-color:#000000;color:#FFFFFF;border-radius:3px;white-space:pre;display:block;overflow:scroll}
 tai {padding-left:3px;padding-right:3px;user-select:all;background-color:#000000;color:#FFFFFF;border-radius:3px;white-space:pre;display:inline}
 bu,.bu {display:block;user-select:none;background-color:#CFAD80;padding:5px;margin:5px;border-radius:5px;text-decoration:none;color:black;cursor:pointer}
