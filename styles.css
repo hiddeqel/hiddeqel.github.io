@@ -1,4 +1,4 @@
-body {font-family:sans-serif;text-size-adjust:none}
+body {font-family:Inter;text-size-adjust:none}
 p {margin:0px;text-indent:23px;line-height:135%}
 h1, h2, h3, h4, h5, h6 {font-weight:normal}
 ul, ol {margin-top:0px;margin-bottom:0px;line-height:135%}
@@ -31,8 +31,8 @@ nw {white-space:nowrap}
 .ii {vertical-align:middle} /* bottom , text-bottom */
 
 @font-face {
-font-family:NAMU;
-src:url('/files/fonts/NAMU-1750.ttf');
+font-family:Inter;
+src:url('/files/fonts/Inter.ttf');
 }
 
 .il {list-style-type:decimal;display:list-item;margin-left:40px}
