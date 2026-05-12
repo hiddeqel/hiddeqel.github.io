@@ -24,6 +24,14 @@
         cursor:pointer;
         z-index:1001;
         user-select:none;
+        color:black;
+
+        transition:color 0.3s ease;
+    }
+
+    /* В открытом состоянии делаем значок белым */
+    #menu-toggle:checked + .burger{
+        color:white;
     }
 
     /* Боковая панель */
