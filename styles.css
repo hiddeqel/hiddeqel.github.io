@@ -7,7 +7,7 @@ hr {border:1px solid black}
 
 table {border-collapse:collapse;margin-top:3px;margin-bottom:3px}
 td,th {border:1px solid black;padding:5px}
-.vat,[class=vat] td {vertical-align:top}
+.vat,.vat td {vertical-align:top}
 
 fieldset,legend {border:1px solid black;border-radius:3px}
 fieldset {margin-top:5px;margin-bottom:5px}
@@ -23,7 +23,6 @@ tar {display:block;text-align:right}
 wspl {display:block;white-space:pre-line}
 .wspl {white-space:pre-line}
 .w100 {width:100%}
-.vat {vertical-align:top}
 
 gb1 {padding-left:2px;padding-right:2px;border-radius:3px;white-space:nowrap;background-color:#1F883D;border:1px solid #1F793A;color:white}
 gb2 {padding-left:2px;padding-right:2px;border-radius:3px;white-space:nowrap;background-color:#F6F8FA;border:1px solid #D1D9E0}
