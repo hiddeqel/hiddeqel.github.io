@@ -29,6 +29,7 @@ gb1 {padding-left:2px;padding-right:2px;border-radius:3px;white-space:nowrap;bac
 gb2 {padding-left:2px;padding-right:2px;border-radius:3px;white-space:nowrap;background-color:#F6F8FA;border:1px solid #D1D9E0}
 nw {white-space:nowrap}
 .ii {vertical-align:middle} /* bottom , text-bottom */
+[class=bsh] td {border-style:hidden}
 
 @font-face {
 font-family:Inter;
@@ -44,7 +45,6 @@ tab {padding-left:3px;padding-right:3px;user-select:all;background-color:#000000
 tai {padding-left:3px;padding-right:3px;user-select:all;background-color:#000000;color:#FFFFFF;border-radius:3px;white-space:pre;display:inline}
 .bu {display:block;user-select:none;background-color:#CFAD80;padding:5px;margin:5px;border-radius:5px;text-decoration:none;color:black;cursor:pointer;font-family:Cherry Swash,NAMU}
 .ii {height:2ex;vertical-align:middle}
-[class=bsh] td {border-style:hidden}
 
 @font-face {
 font-family:Cherry Swash;
