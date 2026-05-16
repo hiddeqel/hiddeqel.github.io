@@ -1,4 +1,4 @@
-body {color:red;font-family:Inter;text-size-adjust:none}
+body {font-family:Inter;text-size-adjust:none}
 p {margin:0px;text-indent:23px;line-height:135%}
 h1, h2, h3, h4, h5, h6 {font-weight:normal}
 ul, ol {margin-top:0px;margin-bottom:0px;line-height:150%}
@@ -29,7 +29,7 @@ gb1 {padding-left:2px;padding-right:2px;border-radius:3px;white-space:nowrap;bac
 gb2 {padding-left:2px;padding-right:2px;border-radius:3px;white-space:nowrap;background-color:#F6F8FA;border:1px solid #D1D9E0}
 nw {white-space:nowrap}
 .ii {vertical-align:middle} /* bottom , text-bottom */
-[class=bsh] td {border-style:hidden}
+.bsh {border-style:hidden}
 
 @font-face {
 font-family:Inter;
