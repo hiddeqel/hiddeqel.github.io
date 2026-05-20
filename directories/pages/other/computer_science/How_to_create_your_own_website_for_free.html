@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="theme-color" content="#3858E9">
+<link rel="stylesheet" href="/styles.css">
+<link rel="icon" href="/favicon.png">
+<title>Как создать свой сайт бесплатно</title>
+</head>
+<body>
+<h1>Как создать свой сайт бесплатно</h1>
+<p>В этой статье вы узнаете, как сделать собственный веб-сайт с помощью GitHub Pages (<a href="https://docs.github.com/ru/pages">GitHub Docs</a>, <a href="https://en.m.wikipedia.org/wiki/GitHub#GitHub_Pages">Wikipedia</a>). GitHub Pages — это функция <a href="https://ru.m.wikipedia.org/wiki/GitHub">GitHub</a>, которая предоставляет бесплатный <a href="https://ru.m.wikipedia.org/wiki/Хостинг">хостинг</a> и <a href="https://ru.m.wikipedia.org/wiki/Доменное_имя">домен</a> для размещения веб-сайта в Интернете.</p>
+<h2>Быстрый старт</h2>
+<p>В этой пошаговой инструкции мы создаём <a href="https://ru.m.wikipedia.org/wiki/Стартовая_страница">главную страницу сайта</a>. Она будет представлять собой файл <a href="https://ru.m.wikipedia.org/wiki/Index.html">index.html</a>, содержащий фразу «<a href="https://ru.wikipedia.org/wiki/Hello,_world!">Hello, World!</a>».</p>
+<h3>Шаг 1. Регистрируемся на GitHub</h3>
+<p>Сначала нам надо зарегистрироваться на GitHub. Для этого вы можете перейти на <a href="https://github.com">главную страницу</a> и нажать <gb1>Sign up for GitHub</gb1> либо воспользоваться <a href="https://github.com/signup">прямой ссылкой на страницу регистрации</a>. Чтобы создать аккаунт, нужен только адрес электронной почты.</p>
+<h3>Шаг 2. Создаём репозиторий</h3>
+<p>После создания учётной записи вы вернётесь на главную страницу и увидите перед собой панель инструментов (<a href="https://github.com/dashboard">Dashboard</a>). Теперь нам нужно создать <a href="https://ru.m.wikipedia.org/wiki/Репозиторий">репозиторий</a> для нашего сайта. Для этого вы можете нажать кнопку <gb1>Create repository</gb1> в разделе «Repositories» либо воспользоваться <a href="https://github.com/new">прямой ссылкой на страницу создания репозитория</a>.</p>
+<p>Для того, чтобы активировать функцию GitHub Pages, в поле «Repository name» вы должны ввести «nickname.github.io», где «nickname» — выбранное вами на предыдущем шаге имя пользователя, указанное в нижнем регистре. Например, если при создании аккаунта в разделе «Username» вы указали «RickOwens», то тогда в поле «Repository name» вы должны ввести «rickowens.github.io».</p>
+<p>Все остальные поля вы можете оставить без изменений и нажать <gb1>Create repository</gb1>.</p>
+<h3>Шаг 3. Добавляем лицензию</h3>
+<p>После нажатия кнопки <gb1>Create repository</gb1>, вы попадёте на страницу созданного репозитория. Теперь нам нужно добавить лицензию.</p>
+<p>На мой взгляд, самый лучший вариант — это WTFPL license. Вы можете сравнить WTFPL с другими лицензиями по <a href="https://choosealicense.com/appendix">этой таблице</a>, а также найти более подробную информацию о ней здесь:</p>
+<ul>
+<li><a href="https://www.wtfpl.net">Официальный сайт</a></li>
+<li><a href="https://ru.m.wikipedia.org/wiki/WTFPL">Википедия</a></li>
+<li><a href="https://choosealicense.com/licenses/wtfpl">choosealicense</a></li>
+</ul>
+<p>Для того, чтобы добавить лицензию в ваш репозиторий, найдите текст «Get started by creating a new file or uploading an existing file. We recommend every repository include a README, LICENSE, and .gitignore.» и нажмите на слово «LICENSE». Вы окажетесь на странице создания файла лицензии. Откройте <a href="https://www.wtfpl.net/txt/copying">текст лицензии WTFPL</a>, скопируйте его и вставьте в поле «Enter file contents here». После этого нажмите <gb1>Commit changes...</gb1> и затем ещё раз <gb1>Commit changes</gb1>.</p>
+<h3>Шаг 4. Создаём главную страницу сайта</h3>
+<p>После создания первого файла страница вашего репозитория примет свой стандартный вид. Вы увидите файл лицензии в списке всех файлов репозитория (он называется «LICENSE.md»). Теперь нам нужно создать главную страницу сайта. Для этого выполните следующие действия:</p>
+<ol>
+<li>Нажмите на кнопку <gb2><img class="ii" src="https://raw.githubusercontent.com/primer/octicons/main/icons/kebab-horizontal-16.svg"></gb2>, которая находится на одном уровне с кнопкой <gb2><img class="ii" src="https://raw.githubusercontent.com/primer/octicons/main/icons/git-branch-16.svg"> main <img class="ii" src="https://raw.githubusercontent.com/primer/octicons/main/icons/triangle-down-16.svg"></gb2></li>
+<li>Нажмите <gb2><img class="ii" src="https://raw.githubusercontent.com/primer/octicons/main/icons/plus-16.svg"> Create new file</gb2></li>
+<li>В поле «Enter file contents here» введите «Hello, World!»</li>
+<li>В поле «Name your file...» введите «index.html»</li>
+<li>Нажмите <gb1>Commit changes...</gb1> и затем ещё раз <gb1>Commit changes</gb1></li>
+</ol>
+<p>После этого главная страница вашего сайта будет доступна по ссылке «https://rickowens.github.io».</p>
+<h3>Шаг 5. Добавляем ссылку на сайт на страницу репозитория</h3>
+<p>Осталось сделать последний штрих — добавить ссылку на наш сайт на страницу репозитория. Для этого выполните следующие действия:</p>
+<ol>
+<li>Перезагрузите страницу, на которой вы оказались после создания файла «index.html»</li>
+<li>Внизу с правой стороны найдите кнопку <img class="ii" src="https://raw.githubusercontent.com/primer/octicons/main/icons/gear-16.svg">. Она находится над словом «Releases».</li>
+<li>Поставьте галочку напротив пункта «Use your GitHub Pages website»</li>
+<li>Нажмите <gb1>Save changes</gb1></li>
+</ol>
+<h2>Немного теории</h2>
+Сайт, который мы только что создали, называется статический. Он имеет две стороны: исходный код и фронтенд.
+<ol>
+<li>Исходный код — это файловая структура сайта, редактируемая через GitHub. Получить доступ к этой части сайта мы можем через главную страницу репозитория. В нашем примере она находится по ссылке</li>
+<li>Фронтенд — это отображение сайта в браузере, которое видят заходящие на сайт пользователи. Получить доступ к этой части сайта мы можем через главную страницу сайта. В нашем примере она находится по ссылке</li>
+</ol>
+<hr>
+<gb2><img class="ii" src="https://raw.githubusercontent.com/primer/octicons/main/icons/kebab-horizontal-16.svg"></gb2>
+<gb2><img class="ii" src="https://raw.githubusercontent.com/primer/octicons/main/icons/copy-16.svg"></gb2>
+<p>для размещения <a href="https://ru.m.wikipedia.org/wiki/Статический_сайт">статического веб-сайта</a> в Интернете. Статический веб-сайт состоит из отдельных веб-страниц, так что имейте в виду, что для того, чтобы создать сайт по данной инструкции, вам необходимо обладать знаниями <a href="https://ru.m.wikipedia.org/wiki/HTML">HTML</a> и <a href="https://ru.m.wikipedia.org/wiki/CSS">CSS</a>. Для изучения этих двух языков я рекомендую вам следующие пособия:</p>
+<ul>
+<li>htmlbook: <a href="https://htmlbook.ru/samhtml">учебник HTML</a>, <a href="https://htmlbook.ru/html">справочник HTML</a>, <a href="https://htmlbook.ru/css">справочник CSS</a></li>
+<li>basicweb: <a href="https://basicweb.ru/html/html_book.php">учебник HTML</a>, <a href="https://basicweb.ru/html/html_tags.php">справочник HTML</a>, <a href="https://basicweb.ru/css/css_ref.php">справочник CSS</a></li>
+<li>mdn: <a href="https://developer.mozilla.org/ru/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax">учебник HTML</a>, <a href="https://developer.mozilla.org/ru/docs/Web/HTML/Reference/Elements">справочник HTML</a>, <a href="https://developer.mozilla.org/ru/docs/Web/CSS/Reference">справочник CSS</a></li>
+<li>schoolsw3: <a href="https://www.schoolsw3.com/html/index.php">учебник HTML</a>, <a href="https://www.schoolsw3.com/tags/index.php">справочник HTML</a>, <a href="https://www.schoolsw3.com/cssref/index.php">справочник CSS</a></li>
+</ul>
+https://ru.m.wikipedia.org/wiki/Snake_case
+</body>
+</html>
