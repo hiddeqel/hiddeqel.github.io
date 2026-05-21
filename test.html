@@ -2,85 +2,22 @@
 <html lang="ru">
 <head>
 <meta charset="UTF-8">
-<title>CSS Sidebar</title>
-
-<style>
-    body{
-        margin:0;
-    }
-
-    /* Скрываем checkbox */
-    #menu-toggle{
-        display:none;
-    }
-
-    /* Кнопка-бургер */
-    .burger{
-        position:fixed;
-        top:20px;
-        left:20px;
-        font-size:30px;
-        cursor:pointer;
-        z-index:1001;
-        user-select:none;
-        color:black;
-
-        transition:color 0.3s ease;
-    }
-
-    /* В открытом состоянии делаем значок белым */
-    #menu-toggle:checked + .burger{
-        color:white;
-    }
-
-    /* Боковая панель */
-    .sidebar{
-        position:fixed;
-        top:0;
-        left:-260px;
-        width:250px;
-        height:100vh;
-        background:#222;
-        color:white;
-        padding:20px;
-        box-sizing:border-box;
-
-        transition:left 0.3s ease;
-    }
-
-    /* Когда checkbox отмечен — показываем меню */
-    #menu-toggle:checked ~ .sidebar{
-        left:0;
-    }
-
-    .sidebar h2{
-        margin-top:60px;
-    }
-
-    .sidebar a{
-        display:block;
-        color:white;
-        text-decoration:none;
-        margin:15px 0;
-    }
-</style>
+<meta name="theme-color" content="#0047AB">
+<link rel="stylesheet" href="/styles.css">
+<link rel="icon" href="/favicon.png">
+<title>Заявление на альтернативную гражданскую службу</title>
 </head>
 <body>
-
-<input type="checkbox" id="menu-toggle">
-
-<label for="menu-toggle" class="burger">
-    ☰
-</label>
-
-<div class="sidebar">
-    <h2>Меню</h2>
-
-    <a href="#">Главная</a>
-    <a href="#">Новости</a>
-    <a href="#">Контакты</a>
-    Коричневое ухо фараона на грифе китовых борозд
-</div>
+<tar>Председателю призывной комиссии [название района в родительном падеже]
+<br>
+от [ФИО в родительном падеже]
+<br>
+[Дата рождения]
+<br>
+[Адрес проживания]
+<br>
+[Номер телефона]</tar>
+<h1 class="tac"><b>Заявление</b></h1>
 
 </body>
 </html>
