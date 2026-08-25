@@ -35,6 +35,11 @@ font-family:Inter;
 src:url('/files/fonts/Inter.ttf');
 }
 
+@font-face {
+font-family:Times New Roman;
+src:url('/files/fonts/timesnewroman.ttf');
+}
+
 .il {list-style-type:decimal;display:list-item;margin-left:40px}
 .fn {white-space:nowrap;vertical-align:super;text-decoration:none;user-select:none;font-weight:normal}
 :target {background-color:#DDEEFF}
